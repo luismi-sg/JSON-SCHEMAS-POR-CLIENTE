@@ -1,0 +1,88 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dentist",
+      "name": "Dentista en El Puente del Arzobispo en Toledo | Clínica Dental Sanident",
+      "image": "https://sanidentclinicas.es/wp-content/uploads/2022/06/LOGO-SANIDENT.webp",
+      "@id": "https://sanidentclinicas.es/#dentist",
+      "url": "https://sanidentclinicas.es/",
+      "telephone": "+34 925 457 000",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Cañada Real, 100, 45570 El Puente del Arzobispo, Toledo, España",
+        "addressLocality": "Madrid",
+        "postalCode": "45570",
+        "addressCountry": "ES"
+      },
+      "hasMap":"https://maps.app.goo.gl/SGSu6kHB87EcVtGN7",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.80112071858966,
+        "longitude": -5.173848577685339
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "10:00",
+        "closes": "19:00"
+      }],
+      "sameAs": [
+        "https://maps.app.goo.gl/SGSu6kHB87EcVtGN7",
+        "https://dentistadeconfianza.es/dentista-puente-del-arzobispo/"
+      ] 
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://sanidentclinicas.es/#website",
+      "url":"https://sanidentclinicas.es/",
+      "name":"Dentista en El Puente del Arzobispo en Toledo | Clínica Dental Sanident",
+      "description":"Dentista en El Puente del Arzobispo en Toledo",
+      "publisher":{
+         "@id":"https://sanidentclinicas.es/#dentist"
+      },
+      "potentialAction":[
+         {
+            "@type":"SearchAction",
+            "target":{
+               "@type":"EntryPoint",
+               "urlTemplate":"https://sanidentclinicas.es/?s={search_term_string}"
+            },
+            "query-input":"required name=search_term_string"
+         }
+      ],
+      "inLanguage":"es"
+   },
+ {
+    "@type":[
+       "MedicalProcedure",
+       "Service"
+    ],
+    "@id":"https://sanidentclinicas.es/tratamientos-dentales/#service",
+    "name":"Implantes Dentales",
+    "url":"https://sanidentclinicas.es/tratamientos-dentales/",
+    "mainEntityOfPage":{
+      "@type": "MedicalWebPage",
+      "@id":"https://sanidentclinicas.es/tratamientos-dentales/#medicalwebpage"
+    },
+    "sameAs":[
+       "https://meshb.nlm.nih.gov/record/ui?ui=D015921",
+       "https://www.wikidata.org/wiki/Q143680",
+       "https://es.wikipedia.org/wiki/Implantolog%C3%ADa_dental",
+       "https://dbpedia.org/page/Dental_implant"
+    ],
+    "provider":{
+       "@id":"https://sanidentclinicas.es/#dentist"
+    }
+ }
+]
+}
+</script>

@@ -1,0 +1,98 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dentist",
+      "name": "Dentista en Las Rozas- Clínica DentAll",
+      "image": "https://clinicadentall.com/wp-content/uploads/2023/07/logo_bueno-1.png",
+      "@id": "https://clinicadentall.com/#dentist",
+      "url": "https://clinicadentall.com/",
+      "telephone": "+34 604 951 878",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "C. Camilo José Cela, 10, 28232 Las Rozas de Madrid, Madrid",
+        "addressLocality": "Madrid",
+        "postalCode": "28232",
+        "addressCountry": "ES"
+      },
+      "hasMap":"https://maps.app.goo.gl/NPyqgZ7kMpQdvtWF6",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.51961549302478,
+        "longitude": -3.895834947972665
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday"
+        ],
+        "opens": "09:30",
+        "closes": "20:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Thursday"
+        ],
+        "opens": "12:00",
+        "closes": "20:00"
+      }],
+      "sameAs": [
+        "https://www.facebook.com/dentalllasrozas",
+        "https://maps.app.goo.gl/NPyqgZ7kMpQdvtWF6",
+        "https://www.instagram.com/dentallclinica/",
+        "https://garantiadeclinica.com/clinicas-dentales-en-madrid/dentista-en-las-rozas/",
+        "https://garantiadeclinica.com/dra-marta-pascual-las-rozas/",
+        "https://dentistadeconfianza.es/dentista-en-las-rozas-clinica-dentall/"
+      ] 
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://clinicadentall.com/#website",
+      "url":"https://clinicadentall.com/",
+      "name":"Dentista en Las Rozas- Clínica Dentall",
+      "description":"Dentista en Las Rozas- Clínica Dentall",
+      "publisher":{
+         "@id":"https://clinicadentall.com/#dentist"
+      },
+      "potentialAction":[
+         {
+            "@type":"SearchAction",
+            "target":{
+               "@type":"EntryPoint",
+               "urlTemplate":"https://clinicadentall.com/?s={search_term_string}"
+            },
+            "query-input":"required name=search_term_string"
+         }
+      ],
+      "inLanguage":"es"
+      },
+ {
+    "@type":[
+       "MedicalProcedure",
+       "Service"
+    ],
+    "@id":"https://clinicadentall.com/tratamientos-dentales/implantes-dentales/#service",
+    "name":"Implantes Dentales",
+    "url":"https://clinicadentall.com/tratamientos-dentales/implantes-dentales/",
+    "mainEntityOfPage":{
+      "@type": "MedicalWebPage",
+      "@id":"https://clinicadentall.com/tratamientos-dentales/implantes-dentales/#medicalwebpage"
+    },
+    "sameAs":[
+       "https://meshb.nlm.nih.gov/record/ui?ui=D015921",
+       "https://www.wikidata.org/wiki/Q143680",
+       "https://es.wikipedia.org/wiki/Implantolog%C3%ADa_dental",
+       "https://dbpedia.org/page/Dental_implant"
+    ],
+    "provider":{
+       "@id":"https://clinicadentall.com/#dentist"
+    }
+ }
+]
+}
+</script>

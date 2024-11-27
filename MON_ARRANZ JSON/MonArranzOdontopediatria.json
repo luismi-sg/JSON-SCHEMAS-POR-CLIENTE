@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Odontopediatría",
+  "description": "La odontopediatría es una especialidad de la odontología que se encarga de la salud bucodental de los niños y adolescentes. La odontopediatría es una de las especialidades más importantes en la odontología, ya que es fundamental cuidar la salud bucodental de los más pequeños desde una edad temprana.",
+  "url": "https://odontoestetica.es/tratamientos-dentales/odontopediatria/",
+  "id": "https://odontoestetica.es/tratamientos-dentales/odontopediatria/#procedure",
+  "provider": {
+    "@type": "DentalClinic",
+    "@id": "https://odontoestetica.es/#clinic",
+    "name": "Dra. Mónica Arranz | Centro Odontológico y Estética Dental",
+    "url": "https://odontoestetica.es/"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": ["El Cañaveral", "Coslada" , "San Fernando"]
+  },
+  "sameAs": [
+    "https://es.wikipedia.org/wiki/Odontopediatr%C3%ADa"
+  ]
+}
+</script>

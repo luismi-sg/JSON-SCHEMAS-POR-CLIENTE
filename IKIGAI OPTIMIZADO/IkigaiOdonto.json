@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Odontología Conservadora",
+  "description": "La odontología conservadora es una especialidad de la odontología que se encarga de prevenir y tratar las enfermedades dentales en sus etapas iniciales. En la Clínica Ikigai Dental, nuestros dentistas en El Cañaveral ofrecen tratamientos de odontología conservadora para mantener la salud bucal de nuestros pacientes.",
+  "url": "https://ikigaidental.com/odontologia-conservadora/",
+  "id": "https://ikigaidental.com/odontologia-conservadora/#procedure",
+  "provider": {
+    "@type": "DentalClinic",
+    "@id": "https://ikigaidental.com/#clinic",s
+    "name": "Clínica Ikigai Dental",
+    "url": "https://ikigaidental.com/"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": ["El Cañaveral", "Coslada" , "San Fernando"]
+  },
+  "sameAs": [
+    "https://es.wikipedia.org/wiki/Odontolog%C3%ADa"
+  ]
+}
+</script>

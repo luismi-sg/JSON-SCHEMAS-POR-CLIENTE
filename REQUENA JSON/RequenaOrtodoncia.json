@@ -1,0 +1,100 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dentist",
+      "name": "Clínica Dental Requena - Dentista en Teatinos",
+      "image": "https://ortodonciaenteatinos.es/wp-content/uploads/2022/06/logo-requena.webp",
+      "@id": "https://ortodonciaenteatinos.es/#dentist",
+      "url": "https://ortodonciaenteatinos.es/",
+      "telephone": "+34 952066186",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "C. Juan de Robles, 61, Puerto de la Torre, 29010 Málaga",
+        "addressLocality": "Málaga",
+        "postalCode": "29010",
+        "addressCountry": "ES"
+      },
+      "hasMap":"https://maps.app.goo.gl/SuURmdApXy1BEsfK9",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 36.720926917288104,
+        "longitude": -4.464862632685705
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday"
+        ],
+        "opens": "09:30",
+        "closes": "20:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Friday"
+        ],
+        "opens": "09:30",
+        "closes": "13:30"
+      }],
+      "sameAs": [
+        "https://maps.app.goo.gl/SuURmdApXy1BEsfK9",
+        "https://www.facebook.com/clinicadentaldrarequena/",
+        "https://www.instagram.com/clinicadentalrequena/",
+        "https://www.youtube.com/watch?v=vaytoA_c5v4",
+        "https://dentistadeconfianza.es/dentista-en-teatinos-malaga/",
+        "https://garantiadeclinica.com/dra-maria-angeles-requena",
+        "https://garantiadeclinica.com/clinicas-dentales-en-malaga/dentista-en-teatinos-malaga/"
+      ] 
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://ortodonciaenteatinos.es/#website",
+      "url":"https://ortodonciaenteatinos.es/",
+      "name":"Ortodoncia en Teatinos",
+      "description":"Clínica Dental Requena - Dentista en Teatinos",
+      "publisher":{
+         "@id":"https://ortodonciaenteatinos.es/#dentist"
+      },
+      "potentialAction":[
+         {
+            "@type":"SearchAction",
+            "target":{
+               "@type":"EntryPoint",
+               "urlTemplate":"https://ortodonciaenteatinos.es/?s={search_term_string}"
+            },
+            "query-input":"required name=search_term_string"
+         }
+      ],
+      "inLanguage":"es"
+   },
+ {
+    "@type":[
+       "MedicalProcedure",
+       "Service"
+    ],
+    "@id":"https://ortodonciaenteatinos.es/tratamientos-dentales/ortodoncia/#service",
+    "name":"Ortodoncia",
+    "url":"https://ortodonciaenteatinos.es/tratamientos-dentales/ortodoncia/",
+    "mainEntityOfPage":{
+      "@type": "MedicalWebPage",
+      "@id":"https://ortodonciaenteatinos.es/tratamientos-dentales/ortodoncia/#medicalwebpage"
+    },
+    "sameAs":[
+       "https://meshb.nlm.nih.gov/record/ui?ui=D009970",
+       "https://www.wikidata.org/wiki/Q118301",
+       "https://es.wikipedia.org/wiki/Ortodoncia",
+       "https://dbpedia.org/page/Orthodontics"
+    ],
+    "provider":{
+       "@id":"https://ortodonciaenteatinos.es/#dentist"
+    }
+ }
+]
+}
+</script>

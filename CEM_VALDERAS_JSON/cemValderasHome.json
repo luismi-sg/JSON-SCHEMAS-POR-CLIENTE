@@ -1,0 +1,74 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+  {
+    "@type": "Dentist",
+    "name": "Implantes Dentales Alcorcón CEM Valderas",
+    "image": "https://implantesalcorcon.es/wp-content/uploads/2022/06/cem-valderas-centro-medico.webp",
+    "@id": "https://implantesalcorcon.es/#dentist",
+    "url": "https://implantesalcorcon.es/",
+    "telephone": "+34 912260021",
+    "priceRange": "€€",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Calle Venus, 10 Posterior, 28925 Alcorcón, Madrid",
+      "addressLocality": "Madrid",
+      "postalCode": "28925",
+      "addressCountry": "ES"
+    },
+    "hasMap":"https://maps.app.goo.gl/w3WiwB2MBmAA8LANA",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.35236811440764, 
+      "longitude": -3.8090167295097452
+    },
+    "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday"
+        ],
+        "opens": "10:00",
+        "closes": "20:00"
+    },{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+            "Thursday"
+        ],
+        "opens": "10:00",
+        "closes": "18:30"
+    }],
+    "sameAs": [
+      "https://www.facebook.com/CemValderas/",
+      "https://twitter.com/CemValderas",
+      "https://maps.app.goo.gl/w3WiwB2MBmAA8LANA",
+      "https://dentistadeconfianza.es/implantes-dentales-alcorcon/",
+      "https://www.instagram.com/cemvalderas_clinica_dental/"
+    ] 
+  },
+  {
+    "@type":"WebSite",
+    "@id":"https://implantesalcorcon.es/#website",
+    "url":"https://implantesalcorcon.es/",
+    "name":"Implantes Dentales Alcorcón CEM Valderas",
+    "description":"Implantes Dentales Alcorcón CEM Valderas",
+    "publisher":{
+       "@id":"https://implantesalcorcon.es/#dentist"
+    },
+    "potentialAction":[
+       {
+          "@type":"SearchAction",
+          "target":{
+             "@type":"EntryPoint",
+             "urlTemplate":"https://implantesalcorcon.es/?s={search_term_string}"
+          },
+          "query-input":"required name=search_term_string"
+       }
+    ],
+    "inLanguage":"es"
+ }
+]
+}
+</script>

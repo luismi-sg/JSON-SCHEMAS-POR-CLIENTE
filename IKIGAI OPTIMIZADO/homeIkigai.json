@@ -1,0 +1,47 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  {
+    "@type": "DentalClinic",
+    "@id": "https://ikigaidental.com/#clinic",
+    "url": "https://ikigaidental.com/",
+    "name": "Clínica Ikigai Dental",
+    "logo": "https://ikigaidental.com/wp-content/uploads/2022/06/Logo-Ikigai-1.png",
+    "description":"Dentistas en El Cañaveral Clínica Ikigai Dental",
+    "telephone": "+34 919 26 51 11",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Avenida Blas de Lezo, 18 28052 Madrid",
+      "addressLocality": "Madrid",
+      "postalCode": "28052",
+      "addressCountry": "ES"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "40.40660260",
+      "longitude": "-3.55232150"
+    },
+    "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+      "opens": "10:00",
+      "closes": "20:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Friday"],
+      "opens": "10:00",
+      "closes": "19:00"
+    }
+    ],
+    "image": "https://ikigaidental.com/wp-content/uploads/2024/10/dentista-elcanaveral-1.webp",
+    "sameAs": [
+      "https://www.facebook.com/people/Ikigai-Dental/100063161144350/",
+      "https://www.instagram.com/ikigai.dental/",
+      "https://www.youtube.com/@ikigaidental1541",
+      "https://es.linkedin.com/company/ikigai-dental"
+    ]
+  }
+}
+</script>

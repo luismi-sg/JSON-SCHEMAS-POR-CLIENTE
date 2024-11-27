@@ -1,0 +1,89 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dentist",
+      "name": "Centro Médico y Dental San Juan de la Rambla",
+      "image": "https://centromedicoydental.com/wp-content/uploads/2023/07/logo-centro-medico-y-dental-san-juan-de-la-rambla.webp",
+      "@id": "https://centromedicoydental.com/#dentist",
+      "url": "https://centromedicoydental.com/",
+      "telephone": "+34 922 35 02 86",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Diecinueve de Marzo, 22, 38428 San Juan de la Rambla, Santa Cruz de Tenerife, España",
+        "addressLocality": "Madrid",
+        "postalCode": "38428",
+        "addressCountry": "ES"
+      },
+      "hasMap":"https://maps.app.goo.gl/s7kcPZXSJJn885Eu5",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 28.379673288065426,
+        "longitude": -16.64555633973274
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "10:00",
+        "closes": "20:00"
+      }],
+      "sameAs": [
+        "https://maps.app.goo.gl/s7kcPZXSJJn885Eu5",
+        "https://www.facebook.com/centromedicoydentalsanjuandelarambla/",
+        "https://www.instagram.com/medicodentalsanjuan"
+      ] 
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://centromedicoydental.com/#website",
+      "url":"https://centromedicoydental.com/",
+      "name":"Centro Médico y Dental San Juan de la Rambla",
+      "description":"Centro Médico y Dental San Juan de la Rambla",
+      "publisher":{
+         "@id":"https://centromedicoydental.com/#dentist"
+      },
+      "potentialAction":[
+         {
+            "@type":"SearchAction",
+            "target":{
+               "@type":"EntryPoint",
+               "urlTemplate":"https://centromedicoydental.com/?s={search_term_string}"
+            },
+            "query-input":"required name=search_term_string"
+         }
+      ],
+      "inLanguage":"es"
+   },
+ {
+    "@type":[
+       "MedicalProcedure",
+       "Service"
+    ],
+    "@id":"https://centromedicoydental.com/tratamientos-dentales/implantes-dentales/#service",
+    "name":"Implantes Dentales",
+    "url":"https://centromedicoydental.com/tratamientos-dentales/implantes-dentales/",
+    "mainEntityOfPage":{
+      "@type": "MedicalWebPage",
+      "@id":"https://centromedicoydental.com/tratamientos-dentales/implantes-dentales/#medicalwebpage"
+    },
+    "sameAs":[
+       "https://meshb.nlm.nih.gov/record/ui?ui=D015921",
+       "https://www.wikidata.org/wiki/Q143680",
+       "https://es.wikipedia.org/wiki/Implantolog%C3%ADa_dental",
+       "https://dbpedia.org/page/Dental_implant"
+    ],
+    "provider":{
+       "@id":"https://clinicaammonite.com/#dentist"
+    }
+ }
+]
+}
+</script>

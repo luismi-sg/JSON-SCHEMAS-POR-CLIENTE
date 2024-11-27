@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Odontopediatría ",
+  "description": "La odontopediatría es una especialidad de la odontología que se encarga de la salud bucal de los niños. En la Clínica Argadent, nuestros dentistas en Arganda del Rey ofrecen tratamientos de odontopediatría para mantener la salud bucal de los más pequeños.",
+  "url": "https://argadent.com/odontopediatria/",
+  "id": "https://argadent.com/odontopediatria/#procedure",
+  "provider": {
+    "@type": "DentalClinic",
+    "@id": "https://argadent.com/#clinic",
+    "name": "Argadent",
+    "url": "https://argadent.com/"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": ["Arganda del Rey"]
+  },
+  "sameAs": [
+    "https://es.wikipedia.org/wiki/Odontopediatr%C3%ADa"
+  ]
+}
+</script>

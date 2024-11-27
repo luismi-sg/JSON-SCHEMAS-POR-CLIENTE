@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Odontología General",
+  "description": "La odontología general es una especialidad de la odontología que se encarga de prevenir y tratar las enfermedades dentales en sus etapas iniciales. En Dental Lucena, nuestros dentistas en Lucena ofrecen tratamientos de odontología general para mantener la salud bucal de nuestros pacientes.",
+  "url": "https://dentistasenlucena.com/odontologia-general/",
+  "id": "https://dentistasenlucena.com/odontologia-general/#procedure",
+  "provider": {
+    "@type": "DentalClinic",
+    "@id": "https://dentistasenlucena.com/#clinic",
+    "name": "Dental Lucena",
+    "url": "https://dentistasenlucena.com/"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": ["Lucena", "Córdoba" , "Andalucía"]
+  },
+  "sameAs": [
+    "https://es.wikipedia.org/wiki/Odontolog%C3%ADa"
+  ]
+}
+</script>

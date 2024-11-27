@@ -1,0 +1,100 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dentist",
+      "name": "Dentista en Las Rozas- Clínica Dental Atlanta",
+      "image": "https://clinicadentalatlanta.es/wp-content/uploads/2022/06/logo.svg",
+      "@id": "https://clinicadentalatlanta.es/#dentist",
+      "url": "https://clinicadentalatlanta.es/",
+      "telephone": "+34 916 31 86 33",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. de Atenas, 75, local 123 - 124, 28232 Las Rozas de Madrid, Madrid",
+        "addressLocality": "Madrid",
+        "postalCode": "28232",
+        "addressCountry": "ES"
+      },
+      "hasMap":"https://maps.app.goo.gl/HrCXowwM6RqLFukW7",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.51756846659971, 
+        "longitude": -3.923035234986166
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday"
+        ],
+        "opens": "09:15",
+        "closes": "20:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Friday"
+        ],
+        "opens": "09:15",
+        "closes": "14:00"
+      }],
+      "sameAs": [
+        "https://www.facebook.com/clinicadentalatlanta/",
+        "https://maps.app.goo.gl/HrCXowwM6RqLFukW7",
+        "https://www.instagram.com/clinicadentalatlanta/",
+        "https://garantiadeclinica.com/dra-estefani-ramos-madrid/",
+        "https://garantiadeclinica.com/dr-jose-ramos-madrid/",
+        "https://garantiadeclinica.com/clinicas-dentales-en-madrid/dentistas-en-monte-rozas/",
+        "https://dentistadeconfianza.es/dentistas-en-monte-rozas/"
+      ] 
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://clinicadentalatlanta.es/#website",
+      "url":"https://clinicadentalatlanta.es/",
+      "name":"Dentista en Las Rozas- Clínica Dental Atlanta",
+      "description":"Dentista en Las Rozas- Clínica Dental Atlanta",
+      "publisher":{
+         "@id":"https://clinicadentalatlanta.es/#dentist"
+      },
+      "potentialAction":[
+         {
+            "@type":"SearchAction",
+            "target":{
+               "@type":"EntryPoint",
+               "urlTemplate":"https://clinicadentalatlanta.es/?s={search_term_string}"
+            },
+            "query-input":"required name=search_term_string"
+         }
+      ],
+      "inLanguage":"es"
+      },
+ {
+    "@type":[
+       "MedicalProcedure",
+       "Service"
+    ],
+    "@id":"https://clinicadentalatlanta.es/tratamientos-dentales/odontopediatria/#service",
+    "name":"Odontopediatria",
+    "url":"https://clinicadentalatlanta.es/tratamientos-dentales/odontopediatria/",
+    "mainEntityOfPage":{
+      "@type": "MedicalWebPage",
+      "@id":"https://clinicadentalatlanta.es/tratamientos-dentales/odontopediatria/#medicalwebpage"
+    },
+    "sameAs":[
+       "https://meshb.nlm.nih.gov/record/ui?ui=D010377",
+       "https://www.wikidata.org/wiki/Q2086597",
+       "https://es.wikipedia.org/wiki/Odontopediatr%C3%ADa",
+       "https://dbpedia.org/page/Pediatric_dentistry"
+    ],
+    "provider":{
+       "@id":"https://clinicadentalatlanta.es/#dentist"
+    }
+ }
+]
+}
+</script>

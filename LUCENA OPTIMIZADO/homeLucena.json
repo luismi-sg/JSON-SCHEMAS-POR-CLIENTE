@@ -1,0 +1,45 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  {
+    "@type": "DentalClinic",
+    "@id": "https://dentistasenlucena.com/#clinic",
+    "url": "https://dentistasenlucena.com/",
+    "name": "Dental Lucena",
+    "logo": "https://dentistasenlucena.com/wp-content/uploads/2022/06/logo-centros-dentales.webp",
+    "description":"Dental Lucena | Dr. Banchs & Dra. Rojas",
+    "telephone": "+34 957 59 18 57",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "C. el Agua, 6, 14900 Lucena, Córdoba",
+      "addressLocality": "Córdoba",
+      "postalCode": "14900",
+      "addressCountry": "ES"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "37.40844930", 
+      "longitude": "-4.48766490"
+    },
+    "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday","Friday"],
+      "opens": "09:30",
+      "closes": "16:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday","Friday"],
+      "opens": "16:00",
+      "closes": "20:00"
+    }
+    ],
+    "image": "https://dentistasenlucena.com/wp-content/uploads/2023/03/Atencion-al-paciente-itinerarioimg3.webp",
+    "sameAs": [
+      "https://www.instagram.com/centrosdentales/",
+      "https://www.tiktok.com/@dentistalucena"
+    ]
+  }
+}
+</script>

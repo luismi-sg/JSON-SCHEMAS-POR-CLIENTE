@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Implantes dentales",
+  "description": "Los implantes dentales son una solución permanente para reemplazar dientes perdidos. En la Clínica Ikigai Dental, nuestros dentistas en El Cañaveral ofrecen tratamientos de implantes dentales para mejorar la salud bucal de nuestros pacientes.",
+  "url": "https://ikigaidental.com/implantes-dentales/",
+  "id": "https://ikigaidental.com/implantes-dentales/#procedure",
+  "provider": {
+    "@type": "DentalClinic",
+    "@id": "https://ikigaidental.com/#clinic",
+    "name": "Clínica Ikigai Dental",
+    "url": "https://ikigaidental.com/"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": ["El Cañaveral", "Coslada" , "San Fernando"]
+  },
+  "sameAs": [
+    "https://es.wikipedia.org/wiki/Implantolog%C3%ADa_dental"
+  ]
+}
+</script>

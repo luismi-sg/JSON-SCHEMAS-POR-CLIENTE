@@ -1,0 +1,283 @@
+"<script type=""application/ld+json""class=""yoast-schema-graph"">"{
+    "@context":"https://schema.org",
+    "@graph":[
+       /*{
+          "@type":"WebPage",
+          "@id":"https://www.clinicaferrusbratos.com/#webpage",
+          "url":"https://www.clinicaferrusbratos.com/",
+          "name":"Clínica dental Madrid - Dentistas Madrid - Ferrus&amp;Bratos",
+          "isPartOf":{
+             "@id":"https://www.clinicaferrusbratos.com/#website"
+          },
+          "about":{
+             "@id":"https://www.clinicaferrusbratos.com/#organization"
+          },
+          "primaryImageOfPage":{
+             "@id":"https://www.clinicaferrusbratos.com/#primaryimage"
+          },
+          "image":{
+             "@id":"https://www.clinicaferrusbratos.com/#primaryimage"
+          },
+          "thumbnailUrl":"https://res.cloudinary.com/ferrusbratos/w_auto,dpr_auto,f_auto,q_auto,c_scale/home/clinica-dental-ferrus-bratos-xxl.jpg",
+          "datePublished":"2018-07-05T14:03:05+00:00",
+          "dateModified":"2023-02-13T08:17:25+00:00",
+          "description":"En las clínicas dentales Ferrus&Bratos en Madrid somos expertos en salud bucodental: Ortodoncia, Implantología, Periodoncia, Estética y Conservadora.",
+          "breadcrumb":{
+             "@id":"https://www.clinicaferrusbratos.com/#breadcrumb"
+          },
+          "inLanguage":"es",
+          "potentialAction":[
+             {
+                "@type":"ReadAction",
+                "target":[
+                   "https://www.clinicaferrusbratos.com/"
+                ]
+             }
+          ]
+       },
+       {
+          "@type":"ImageObject",
+          "inLanguage":"es",
+          "@id":"https://www.clinicaferrusbratos.com/#primaryimage",
+          "url":"https://res.cloudinary.com/ferrusbratos/w_auto,dpr_auto,f_auto,q_auto,c_scale/home/clinica-dental-ferrus-bratos-xxl.jpg",
+          "contentUrl":"https://res.cloudinary.com/ferrusbratos/w_auto,dpr_auto,f_auto,q_auto,c_scale/home/clinica-dental-ferrus-bratos-xxl.jpg"
+       },
+       {
+          "@type":"BreadcrumbList",
+          "@id":"https://www.clinicaferrusbratos.com/#breadcrumb",
+          "itemListElement":[
+             {
+                "@type":"ListItem",
+                "position":1,
+                "name":"Clínica dental"
+             }
+          ]
+       },*/
+       {
+          "@type":"WebSite",
+          "@id":"https://www.clinicaferrusbratos.com/#website",
+          "url":"https://www.clinicaferrusbratos.com/",
+          "name":"Clínica Dental Ferrus & Bratos",
+          "description":"Clínica dental Ferrus &amp; Bratos de Madrid",
+          "publisher":{
+             "@id":"https://www.clinicaferrusbratos.com/#dentist"
+          },
+          "potentialAction":[
+             {
+                "@type":"SearchAction",
+                "target":{
+                   "@type":"EntryPoint",
+                   "urlTemplate":"https://www.clinicaferrusbratos.com/?s={search_term_string}"
+                },
+                "query-input":"required name=search_term_string"
+             }
+          ],
+          "inLanguage":"es"
+       },
+       {
+          "@type":"Dentist",
+          "@id":"https://www.clinicaferrusbratos.com/#dentist",
+          "name":"Clínica Dental Ferrus & Bratos",
+          "url":"https://www.clinicaferrusbratos.com/",
+          "logo":{
+             "@type":"ImageObject",
+             "inLanguage":"es",
+             "@id":"https://www.clinicaferrusbratos.com/#/schema/logo/image/",
+             "url":"https://www.clinicaferrusbratos.com/app/uploads/logo-mail-clinica-ferrus-bratos.png",
+             "contentUrl":"https://www.clinicaferrusbratos.com/app/uploads/logo-mail-clinica-ferrus-bratos.png",
+             "width":348,
+             "height":188,
+             "caption":"Clínica Dental Ferrus & Bratos"
+          },
+          "image":{
+             "@id":"https://www.clinicaferrusbratos.com/#/schema/logo/image/"
+          },
+          "sameAs":[
+             "https://www.facebook.com/clinicaferrusbratos",
+             "https://twitter.com/FerrusBratos",
+             "https://instagram.com/clinicaferrusbratos",
+             "https://www.linkedin.com/company/ferrus-&amp;-bratos-clinica-dental",
+             "https://www.pinterest.com/ferrusbratos",
+             "https://www.youtube.com/user/FerrusBratos",
+             "https://www.google.com/search?q=knowledge+graph+search+api&kponly&kgmid=/m/011r9y4l"
+          ],
+          /*"brand":[
+             {
+                "@type":"Brand",
+                "name":"Invisalign",
+                "url":"https://www.clinicaferrusbratos.com/invisalign/",
+                "description":"Nuestro equipo de ortodoncistas ha recibido el reconocimiento Diamond Provider de Invisalign por el alto número de casos realizados."
+             },
+             {
+                "@type":"Brand",
+                "name":"Incognito",
+                "url":"https://www.clinicaferrusbratos.com/ortodoncia-lingual-madrid/",
+                "description":"Nuestras ortodoncistas son expertas en ortodoncia lingual, y tienen la acreditación oficial de Incognito 3M"
+             },
+             {
+                "@type":"Brand",
+                "name":"Carillas E-MAX",
+                "url":"https://www.clinicaferrusbratos.com/carillas/emax/",
+                "description":"Nuestro equipo de estética dental son expertos en carillas E-max"
+             },
+             {
+                "@type":"Brand",
+                "name":"Carillas Lumineers",
+                "url":"https://www.clinicaferrusbratos.com/carillas/lumineers-2/",
+                "description":"Nuestro equipo de estética dental son expertos en carillas Lumineers y cuentan con la certificación oficial."
+             },
+             {
+                "@type":"Brand",
+                "name":"Straumann",
+                "url":"https://www.clinicaferrusbratos.com/implantes-dentales/implantes-straumann/",
+                "description":"En Ferrus&Bratos trabajamos con los implantes de la marca Straumann, una de las marcas más reconocidas del mercado."
+             },
+             {
+                "@type":"Brand",
+                "name":"Brackets Damon",
+                "url":"https://www.clinicaferrusbratos.com/ortodoncia-autoligable-damon/",
+                "description":"En Ferrus&Bratos trabajamos con los brackets de autoligado Damon."
+             }
+          ],*/
+          "address":{
+             "@type":"PostalAddress",
+             "addressLocality":"Madrid",
+             "addressRegion":"Comunidad de Madrid",
+             "postalCode":"28033",
+             "streetAddress":"Calle de Caleruega, 102 Planta Baja"
+          },
+          "telephone":"+34 917681812",
+          /*"subOrganization":[
+             {
+                "@type":"Dentist",
+                "@id":"https://www.clinicaferrusbratos.com/pinar-de-chamartin/#dentist",
+                "url":"https://www.clinicaferrusbratos.com/pinar-de-chamartin/",
+                "name":"Clínica Dental Ferrus & Bratos Calle Caleruega",
+                "alternateName":"Ferrus Bratos",
+                "sameAs":[
+                   "https://g.page/r/CS8IME5yuYO5EAE",
+                   "https://www.doctoralia.es/clinicas/ferrus-bratos-clinica-dental",
+                   "https://www.cylex.es/madrid/cl%c3%adnica-dental-ferrus-bratos-12157429.html",
+                   "https://masquemedicos.com/dentista_madrid/clinica-dental-ferrus-y-bratos/",
+                   "https://es.foursquare.com/v/cl%C3%ADnica-ferrus--bratos/4f69e7964fc67ffcecf89ac8"
+                ],
+                "telephone":"917 68 18 12",
+                "priceRange":"€€€",
+                "legalName":"FERRUS BRATOS CLINICA DENTAL SLP",
+                "taxID":"B84894252",
+                "image":"https://www.clinicaferrusbratos.com/app/uploads/odontologia-en-madrid-chamartin.jpg",
+                "address":{
+                   "@type":"PostalAddress",
+                   "addressLocality":"Madrid",
+                   "addressRegion":"Comunidad de Madrid",
+                   "postalCode":"28033",
+                   "streetAddress":"Calle de Caleruega, 102 Planta Baja"
+                },
+                "hasMap":"https://www.google.com/maps?cid=13367732019554945071",
+                "geo":{
+                   "@type":"GeoCoordinates",
+                   "latitude":40.4827368,
+                   "longitude":-3.6680936
+                },
+                "openingHoursSpecification":[
+                   {
+                      "@type":"OpeningHoursSpecification",
+                      "dayOfWeek":[
+                         "Monday",
+                         "Tuesday",
+                         "Wednesday",
+                         "Thursday"
+                      ],
+                      "opens":"09:30",
+                      "closes":"20:30"
+                   },
+                   {
+                      "@type":"OpeningHoursSpecification",
+                      "dayOfWeek":[
+                         "Friday"
+                      ],
+                      "opens":"09:30",
+                      "closes":"19:30"
+                   }
+                ],
+                "contactPoint":{
+                   "@type":"ContactPoint",
+                   "contactType":"customer support",
+                   "name":"Clínica Calle Caleruega",
+                   "telephone":"917 68 18 12",
+                   "url":"https://www.clinicaferrusbratos.com/contacto/",
+                   "email":"atpcaleruega@clinicaferrusbratos.com",
+                   "areaServed":[
+                      "ES"
+                   ],
+                   "availableLanguage":"Spanish"
+                }
+             },
+             {
+                "@type":"Dentist",
+                "@id":"https://www.clinicaferrusbratos.com/barrio-salamanca/#dentist",
+                "url":"https://www.clinicaferrusbratos.com/barrio-salamanca/",
+                "name":"Clínica Dental Ferrus & Bratos Calle Velázquez",
+                "alternateName":"Ferrus Bratos Velázquez",
+                "sameAs":[
+                   "https://g.page/r/CRQpoNs-TKNNEAE",
+                   "https://www.yelp.es/biz/cl%C3%ADnica-dental-ferrus-y-bratos-madrid-4",
+                   "https://about.me/clinicaferrusbratos"
+                ],
+                "telephone":"915 08 14 48",
+                "priceRange":"€€€",
+                "legalName":"FYB PREMIUM DENTAL SLP",
+                "taxID":"B16867558",
+                "image":"https://www.clinicaferrusbratos.com/app/uploads/Clinica-velazquez.jpg",
+                "address":{
+                   "@type":"PostalAddress",
+                   "addressLocality":"Madrid",
+                   "addressRegion":"Comunidad de Madrid",
+                   "postalCode":"28001",
+                   "streetAddress":"Calle de Velázquez, 58"
+                },
+                "hasMap":"https://www.google.com/maps?cid=5594398994980677908",
+                "geo":{
+                   "@type":"GeoCoordinates",
+                   "latitude":40.4278849,
+                   "longitude":-3.6835868
+                },
+                "openingHoursSpecification":[
+                   {
+                      "@type":"OpeningHoursSpecification",
+                      "dayOfWeek":[
+                         "Monday",
+                         "Tuesday",
+                         "Wednesday",
+                         "Thursday"
+                      ],
+                      "opens":"10:00",
+                      "closes":"20:00"
+                   },
+                   {
+                      "@type":"OpeningHoursSpecification",
+                      "dayOfWeek":[
+                         "Friday"
+                      ],
+                      "opens":"10:00",
+                      "closes":"15:00"
+                   }
+                ],
+                "contactPoint":{
+                   "@type":"ContactPoint",
+                   "contactType":"customer support",
+                   "name":"Clínica Calle Velázquez",
+                   "telephone":"915 08 14 48",
+                   "url":"https://www.clinicaferrusbratos.com/contacto/",
+                   "email":"atpvelazquez@clinicaferrusbratos.com",
+                   "areaServed":[
+                      "ES"
+                   ],
+                   "availableLanguage":"Spanish"
+                }
+             }
+          ],*/
+          "priceRange":"€€€"
+       }
+    ]
+ }"</script>"

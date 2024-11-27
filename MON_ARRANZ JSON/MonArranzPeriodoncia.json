@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Periodoncia",
+  "description": "La periodoncia es una especialidad de la odontología que se encarga de prevenir, diagnosticar y tratar las enfermedades periodontales. La periodoncia es una de las especialidades más importantes en la odontología, ya que es fundamental cuidar la salud de las encías y los tejidos de soporte de los dientes.",
+  "url": "https://odontoestetica.es/tratamientos-dentales/periodoncia/",
+  "id": "https://odontoestetica.es/tratamientos-dentales/periodoncia/#procedure",
+  "provider": {
+    "@type": "DentalClinic",
+    "@id": "https://odontoestetica.es/#clinic",
+    "name": "Dra. Mónica Arranz | Centro Odontológico y Estética Dental",
+    "url": "https://odontoestetica.es/"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": ["El Cañaveral", "Coslada" , "San Fernando"]
+  },
+  "sameAs": [
+    "https://es.wikipedia.org/wiki/Periodoncia"
+  ]
+}
+</script>

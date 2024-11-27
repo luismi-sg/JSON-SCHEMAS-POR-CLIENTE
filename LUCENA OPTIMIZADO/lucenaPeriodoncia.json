@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Periodoncia",
+  "description": "La periodoncia es una especialidad de la odontología que se encarga de prevenir, diagnosticar y tratar las enfermedades de las encías. En Dental Lucena, nuestros dentistas en Lucena ofrecen tratamientos de periodoncia para mantener la salud bucal de nuestros pacientes.",
+  "url": "https://dentistasenlucena.com/periodoncia/",
+  "id": "https://dentistasenlucena.com/periodoncia/#procedure",
+  "provider": {
+    "@type": "DentalClinic",
+    "@id": "https://dentistasenlucena.com/#clinic",
+    "name": "Dental Lucena",
+    "url": "https://dentistasenlucena.com/"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": ["Lucena", "Córdoba" , "Andalucía"]
+  },
+  "sameAs": [
+    "https://es.wikipedia.org/wiki/Periodoncia"
+  ]
+}
+</script>

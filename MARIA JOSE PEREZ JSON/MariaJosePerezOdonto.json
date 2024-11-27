@@ -1,0 +1,97 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dentist",
+      "name": "Dra. Mª José Pérez Ortega. Clínica Dental en Churriana",
+      "image": "https://dentistaenchurriana.es/wp-content/uploads/2023/07/logo-ma-jo-perez.webp",
+      "@id": "https://dentistaenchurriana.es/#dentist",
+      "url": "https://dentistaenchurriana.es/",
+      "telephone": "+34 958 55 00 19",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Sta. Cecilia, 24, 18194 Churriana de la Vega, Granada",
+        "addressLocality": "Granada",
+        "postalCode": "18194",
+        "addressCountry": "ES"
+      },
+      "hasMap":"https://maps.app.goo.gl/1jhwdFhMRyCTiMiG6",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.14512546904957,
+        "longitude": -3.6435343819386055
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday"
+        ],
+        "opens": "10:00",
+        "closes": "20:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+            "Friday"
+        ],
+        "opens": "09:30",
+        "closes": "14:00"
+    }],
+      "sameAs": [
+        "https://www.facebook.com/ClinicaDentalMariaJosePerezOrtega/?locale=es_ES",
+        "https://maps.app.goo.gl/1jhwdFhMRyCTiMiG6",
+        "https://www.instagram.com/dentalmariajose/",
+        "https://dentistadeconfianza.es/dentista-en-churriana/"
+      ] 
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://dentistaenchurriana.es/#website",
+      "url":"https://dentistaenchurriana.es/",
+      "name":"Dra. Mª José Pérez Ortega. Clínica Dental en Churriana",
+      "description":"Dra. Mª José Pérez Ortega.",
+      "publisher":{
+         "@id":"https://dentistaenchurriana.es/#dentist"
+      },
+      "potentialAction":[
+         {
+            "@type":"SearchAction",
+            "target":{
+               "@type":"EntryPoint",
+               "urlTemplate":"https://dentistaenchurriana.es/?s={search_term_string}"
+            },
+            "query-input":"required name=search_term_string"
+         }
+      ],
+      "inLanguage":"es"
+      },
+ {
+    "@type":[
+       "MedicalProcedure",
+       "Service"
+    ],
+    "@id":"https://dentistaenchurriana.es/tratamientos-dentales/odontologia-general/#service",
+    "name":"Odontología General",
+    "url":"https://dentistaenchurriana.es/tratamientos-dentales/odontologia-general/",
+    "mainEntityOfPage":{
+      "@type": "MedicalWebPage",
+      "@id":"https://dentistaenchurriana.es/tratamientos-dentales/odontologia-general/#medicalwebpage"
+    },
+    "sameAs":[
+       "https://meshb.nlm.nih.gov/record/ui?ui=D003813",
+       "https://www.wikidata.org/wiki/Q12128",
+       "https://es.wikipedia.org/wiki/Odontolog%C3%ADa",
+       "https://dbpedia.org/page/Dentistry"
+    ],
+    "provider":{
+       "@id":"https://dentistaenchurriana.es/#dentist"
+    }
+ }
+]
+}
+</script>

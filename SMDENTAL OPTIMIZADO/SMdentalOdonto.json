@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Odontología General",
+  "description": "La odontología general es una especialidad de la odontología que se encarga de prevenir y tratar las enfermedades dentales en sus etapas iniciales. En la Clínica SM Dental, nuestros dentistas en Tres Cantos ofrecen tratamientos de odontología general para mantener la salud bucal de nuestros pacientes.",
+  "url": "https://smdental.es/odontologia-general/",
+  "id": "https://smdental.es/odontologia-general/#procedure",
+  "provider": {
+    "@type": "DentalClinic",
+    "@id": "https://smdental.es/#clinic",
+    "name": "SM Dental",
+    "url": "https://smdental.es/"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": ["Tres Cantos"]
+  },
+  "sameAs": [
+    "https://es.wikipedia.org/wiki/Odontolog%C3%ADa"
+  ]
+}
+</script>

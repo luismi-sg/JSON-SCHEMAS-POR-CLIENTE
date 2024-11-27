@@ -1,0 +1,38 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  {
+    "@type": "DentalClinic",
+    "@id": "https://odontoestetica.es/#clinic",
+    "url": "https://odontoestetica.es/",
+    "name": "Clínica Ikigai Dental",
+    "logo": "https://odontoestetica.es/wp-content/uploads/2022/06/LOGO_COED_clinica_dental.png",
+    "description":"Dentistas en Tres Cantos | Centro Odontológico y Estética Dental",
+    "telephone": "+34 918 034 652",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "C. de la Maliciosa, 40, Tres Cantos",
+      "addressLocality": "Madrid",
+      "postalCode": "28760",
+      "addressCountry": "ES"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "40.61054610",
+      "longitude": "-3.71415820"
+    },
+    "openingHoursSpecification":
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday","Friday"],
+      "opens": "10:00",
+      "closes": "20:00"
+    },
+    "image": "https://odontoestetica.es/wp-content/uploads/2023/11/valores-3.webp",
+    "sameAs": [
+      "https://www.facebook.com/COED.odontoestetica",
+      "https://twitter.com/coed_dra_arranz"
+    ]
+  }
+}
+</script>

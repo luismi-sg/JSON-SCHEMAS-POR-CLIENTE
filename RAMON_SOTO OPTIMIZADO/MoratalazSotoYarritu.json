@@ -1,0 +1,119 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+  {
+    "@type": "ContactPage",
+    "name": "Clínica Dental en Moratalaz | Dr Ramón Soto-Yarritu",
+    "image": "https://ramonsotoyarritu.es/wp-content/uploads/2022/06/Ramon-Soto-Yarritu-logo.png",
+    "@id": "https://ramonsotoyarritu.es/clinica-en-moratalaz/#dentist",
+    "url": "https://ramonsotoyarritu.es/clinica-en-moratalaz/",
+    "isPartOf":{
+      "@id":"https://ramonsotoyarritu.es/#website"
+    },
+    "potentialAction":[
+    {
+      "@type":"ReadAction",
+      "target":[
+        "https://ramonsotoyarritu.es/clinica-en-moratalaz/"
+      ]
+    }
+    ],
+   "description":"Visita nuestra clínica dental en calle Cea Bermúdez, en Barrio de Moratalaz. Todas las especialidades en odontología para cuidar tu sonrisa.",
+    "sameAs": [
+      "https://www.facebook.com/ramonsotoymiriamroderoclinicadental/",
+      "https://maps.app.goo.gl/upkrYbq7A2kzhy266",
+      "https://dentistadeconfianza.es/dentistas-en-cea-bermudez/",
+      "https://garantiadeclinica.com/clinicas-dentales-en-madrid/dentistas-en-cea-bermudez"
+    ]
+  },
+  {
+    "@type": "Dentist",
+    "name": "Clínica Dental en Moratalaz | Dr Ramón Soto-Yarritu",
+    "image": "https://ramonsotoyarritu.es/wp-content/uploads/2022/06/Ramon-Soto-Yarritu-logo.png",
+    "@id": "https://ramonsotoyarritu.es/clinica-en-moratalaz/#dentist",
+    "url": "https://ramonsotoyarritu.es/clinica-en-moratalaz/",
+    "isPartOf":{
+      "@id":"https://ramonsotoyarritu.es/#website"
+   },
+   "potentialAction":[
+    {
+      "@type":"ReadAction",
+      "target":[
+        "https://ramonsotoyarritu.es/clinica-en-moratalaz/"
+      ]
+    }
+    ],
+    "description":"Visita nuestra clínica dental en calle Cea Bermúdez, en Barrio de Moratalaz. Todas las especialidades en odontología para cuidar tu sonrisa.",
+    "telephone": "+34 914 37 00 40",
+    "priceRange": "€€",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. de Moratalaz, 66, escalera derecha 1ºA, Moratalaz, 28030 Madrid",
+      "addressLocality": "Madrid",
+      "postalCode": "28030",
+      "addressCountry": "ES"
+    },
+    "hasMap":"https://maps.app.goo.gl/upkrYbq7A2kzhy266",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.40602624545416,
+      "longitude": -3.6503567781304795
+    },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "19:00"
+    }],
+    "contactPoint":{
+      "@type":"ContactPoint",
+      "contactType":"customer support",
+      "name":"Clínica Moratalaz | Dr. Ramón Soto Yarritu",
+      "telephone":"915 33 31 31",
+      "url":"https://ramonsotoyarritu.es/contacto/",
+      "email":"recepcion@ramonsotoyarritu.es",
+      "areaServed":[
+         "ES"
+      ],
+      "availableLanguage":"Spanish"
+   },
+    "sameAs": [
+      "https://www.facebook.com/ramonsotoymiriamroderoclinicadental/",
+      "https://maps.app.goo.gl/upkrYbq7A2kzhy266",
+      "https://dentistadeconfianza.es/dentistas-en-moratalaz/",
+      "https://garantiadeclinica.com/dr-ramon-soto-yarritu",
+      "https://garantiadeclinica.com/clinicas-dentales-en-madrid/dentistas-en-moratalaz/",
+      "https://garantiadeclinica.com/dra-miriam-rodero/"
+    ] 
+  },
+  {
+    "@type":"WebSite",
+    "@id":"https://ramonsotoyarritu.es/#website",
+    "url":"https://ramonsotoyarritu.es/",
+    "name":"Dr Ramón Soto-Yarritu",
+    "description":"Clínica Dental en Moratalaz | Dr Ramón Soto-Yarritu",
+    "publisher":{
+       "@id":"https://ramonsotoyarritu.es/#dentist"
+    },
+    "potentialAction":[
+       {
+          "@type":"SearchAction",
+          "target":{
+             "@type":"EntryPoint",
+             "urlTemplate":"https://ramonsotoyarritu.es/?s={search_term_string}"
+          },
+          "query-input":"required name=search_term_string"
+       }
+    ],
+    "inLanguage":"es"
+ }
+]
+}
+</script>

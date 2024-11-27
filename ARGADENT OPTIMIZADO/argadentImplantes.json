@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Implantes Dentales",
+  "description": "Los implantes dentales son una solución permanente para reemplazar dientes perdidos. En la Clínica Argadent, nuestros dentistas en Arganda del Rey ofrecen tratamientos de implantes dentales para mejorar la salud bucal de nuestros pacientes.",
+  "url": "https://argadent.com/implantes-dentales/",
+  "id": "https://argadent.com/implantes-dentales/#procedure",
+  "provider": {
+    "@type": "DentalClinic",
+    "@id": "https://argadent.com/#clinic",
+    "name": "Argadent",
+    "url": "https://argadent.com/"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": ["Arganda del Rey"]
+  },
+  "sameAs": [
+    "https://es.wikipedia.org/wiki/Implantolog%C3%ADa_dental"
+  ]
+}
+</script>

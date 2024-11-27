@@ -1,0 +1,95 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dentist",
+      "name": "Dentista en Mota del Cuervo | Clínica Dental Pardo",
+      "image": "https://dentalpardo.es/wp-content/uploads/2022/06/RaquelPardo_Logo_little.jpg",
+      "@id": "https://dentalpardo.es/#dentist",
+      "url": "https://dentalpardo.es/",
+      "telephone": "+34 967 18 08 36",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "C. Mayor Baja, 2, 16630 Mota del Cuervo, Cuenca",
+        "addressLocality": "Cuenca",
+        "postalCode": "16630",
+        "addressCountry": "ES"
+      },
+      "hasMap":"https://maps.app.goo.gl/KFW4yjzYK1a7VMXZA",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.4998552484176,
+        "longitude": -2.8697970815736418
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "10:00",
+        "closes": "21:00"
+      }],
+      "sameAs": [
+        "https://www.facebook.com/people/Dental-Raquel-Pardo/100063035511522/",
+        "https://www.instagram.com/raquelpardo2019/",
+        "https://www.instagram.com/dentalpardocuenca/",
+        "https://maps.app.goo.gl/KFW4yjzYK1a7VMXZA",
+        "https://dentistadeconfianza.es/dentista-en-cuenca/",
+        "https://dentistadeconfianza.es/dentista-en-mota-del-cuervo-dental-pardo/",
+        "https://dentalpardo.garantiadeclinica.com/",
+        "https://garantiadeclinica.com/clinicas-dentales-en-cuenca/dentista-en-mota-del-cuervo/",
+        "https://garantiadeclinica.com/clinicas-dentales-en-cuenca/dentista-en-cuenca/"
+      ] 
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://dentalpardo.es/#website",
+      "url":"https://dentalpardo.es/",
+      "name":"Clínica Dental Pardo",
+      "description":"Dentista en Mota del Cuervo | Clínica Dental Pardo",
+      "publisher":{
+         "@id":"https://dentalpardo.es/#dentist"
+      },
+      "potentialAction":[
+         {
+            "@type":"SearchAction",
+            "target":{
+               "@type":"EntryPoint",
+               "urlTemplate":"https://dentalpardo.es/?s={search_term_string}"
+            },
+            "query-input":"required name=search_term_string"
+         }
+      ],
+      "inLanguage":"es"
+   },
+ {
+    "@type":[
+       "MedicalProcedure",
+       "Service"
+    ],
+    "@id":"https://dentalpardo.es/tratamientos-dentales/ortodoncia/#service",
+    "name":"Ortodoncia",
+    "url":"https://dentalpardo.es/tratamientos-dentales/ortodoncia/",
+    "mainEntityOfPage":{
+      "@type": "MedicalWebPage",
+      "@id":"https://dentalpardo.es/tratamientos-dentales/ortodoncia/#medicalwebpage"
+    },
+    "sameAs":[
+       "https://meshb.nlm.nih.gov/record/ui?ui=D009970",
+       "https://www.wikidata.org/wiki/Q118301",
+       "https://es.wikipedia.org/wiki/Ortodoncia",
+       "https://dbpedia.org/page/Orthodontics"
+    ],
+    "provider":{
+       "@id":"https://dentalpardo.es/#dentist"
+    }
+ }
+]
+}
+</script>

@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Ortodoncia",
+  "description": "La ortodoncia es una especialidad de la odontología que se encarga de corregir la posición de los dientes y mandíbula. En la Clínica Ikigai Dental, nuestros dentistas en El Cañaveral ofrecen tratamientos de ortodoncia para mejorar la salud bucal de nuestros pacientes.",
+  "url": "https://ikigaidental.com/ortodoncia/",
+  "id": "https://ikigaidental.com/ortodoncia/#procedure",
+  "provider": {
+    "@type": "DentalClinic",
+    "@id": "https://ikigaidental.com/#clinic",
+    "name": "Clínica Ikigai Dental",
+    "url": "https://ikigaidental.com/"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": ["El Cañaveral", "Coslada" , "San Fernando"]
+  },
+  "sameAs": [
+    "https://es.wikipedia.org/wiki/Ortodoncia"
+  ]
+}
+</script>

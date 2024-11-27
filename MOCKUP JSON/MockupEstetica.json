@@ -1,0 +1,88 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dentist",
+      "name": "Mock Up Dental Doctores Pelarda",
+      "image": "https://mockupdental.com/wp-content/uploads/2023/07/logo-mockup.png",
+      "@id": "https://mockupdental.com/#dentist",
+      "url": "https://mockupdental.com/",
+      "telephone": "+34 948 10 81 91",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Esquina con Avda. Zaragoza junto a la Plaza de Toros, C. Almajares, 10, 31500 Tudela, Navarra, España",
+        "addressLocality": "Navarra",
+        "postalCode": "31500",
+        "addressCountry": "ES"
+      },
+      "hasMap":"https://maps.app.goo.gl/RosqizXycRSj1rBb8",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 42.055940031388516,
+        "longitude": -1.5988272305656788
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:30",
+        "closes": "20:00"
+      }],
+      "sameAs": [
+        "https://www.facebook.com/mockupdental/",
+        "https://maps.app.goo.gl/RosqizXycRSj1rBb8"
+      ] 
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://mockupdental.com/#website",
+      "url":"https://mockupdental.com/",
+      "name":"Mock Up Dental Doctores Pelarda",
+      "description":"Mock Up Dental Doctores Pelarda",
+      "publisher":{
+         "@id":"https://mockupdental.com/#dentist"
+      },
+      "potentialAction":[
+         {
+            "@type":"SearchAction",
+            "target":{
+               "@type":"EntryPoint",
+               "urlTemplate":"https://mockupdental.com/?s={search_term_string}"
+            },
+            "query-input":"required name=search_term_string"
+         }
+      ],
+      "inLanguage":"es"
+   },
+ {
+    "@type":[
+       "MedicalProcedure",
+       "Service"
+    ],
+    "@id":"https://mockupdental.com/tratamientos-dentales/estetica-dental/#service",
+    "name":"Estética Dental",
+    "url":"https://mockupdental.com/tratamientos-dentales/estetica-dental/",
+    "mainEntityOfPage":{
+      "@type": "MedicalWebPage",
+      "@id":"https://mockupdental.com/tratamientos-dentales/estetica-dental/#medicalwebpage"
+    },
+    "sameAs":[
+       "https://meshb.nlm.nih.gov/record/ui?ui=D004955",
+       "https://www.wikidata.org/wiki/Q113726486",
+       "https://es.wikipedia.org/wiki/Odontolog%C3%ADa_est%C3%A9tica",
+       "https://pubmed.ncbi.nlm.nih.gov/31633462/"
+    ],
+    "provider":{
+       "@id":"https://mockupdental.com/#dentist"
+    }
+ }
+]
+}
+</script>

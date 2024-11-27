@@ -1,0 +1,96 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dentist",
+      "name": "Dentistas Arturo Soria IDENTA",
+      "image": "https://dentistaenarturosoria.es/wp-content/uploads/2023/07/logo-identa.webp",
+      "@id": "https://dentistaenarturosoria.es/#dentist",
+      "url": "https://dentistaenarturosoria.es/",
+      "telephone": "+34 913844759",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "C. de Arturo Soria, 338, 342, 28033 Madrid",
+        "addressLocality": "Madrid",
+        "postalCode": "28027",
+        "addressCountry": "ES"
+      },
+      "hasMap":"https://maps.app.goo.gl/1Ehcv2zZFCLfrzow9",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.4819308,
+        "longitude": -3.6649389
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday"
+        ],
+        "opens": "09:30",
+        "closes": "19:30"
+      },{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Friday",
+        "opens": "09:30",
+        "closes": "13:30"
+      }],
+      "sameAs": [
+        "https://www.facebook.com/instituto.dental.avanzado",
+        "https://twitter.com/identaes",
+        "https://www.youtube.com/channel/UC6ON8VQB91IBa6MJp1w1EHQ/featured",
+        "https://maps.app.goo.gl/1Ehcv2zZFCLfrzow9",
+        "https://dentistadeconfianza.es/dentista-en-arturo-soria/",
+        "https://www.instagram.com/identa_instituto_dental/"
+      ] 
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://dentistaenarturosoria.es/#website",
+      "url":"https://dentistaenarturosoria.es/",
+      "name":"Clínica Dental IDENTA | Instituto Dental Avanzado",
+      "description":"Clínica dental IDENTA Arturo Soria",
+      "publisher":{
+         "@id":"https://dentistaenarturosoria.es/#dentist"
+      },
+      "potentialAction":[
+         {
+            "@type":"SearchAction",
+            "target":{
+               "@type":"EntryPoint",
+               "urlTemplate":"https://dentistaenarturosoria.es/?s={search_term_string}"
+            },
+            "query-input":"required name=search_term_string"
+         }
+      ],
+      "inLanguage":"es"
+   },
+ {
+    "@type":[
+       "MedicalProcedure",
+       "Service"
+    ],
+    "@id":"https://dentistaenarturosoria.es/tratamientos-dentales/ortodoncia/#service",
+    "name":"Ortodoncia",
+    "url":"https://dentistaenarturosoria.es/tratamientos-dentales/ortodoncia/",
+    "mainEntityOfPage":{
+      "@type": "MedicalWebPage",
+      "@id":"https://dentistaenarturosoria.es/tratamientos-dentales/ortodoncia/#medicalwebpage"
+    },
+    "sameAs":[
+       "https://meshb.nlm.nih.gov/record/ui?ui=D009970",
+       "https://www.wikidata.org/wiki/Q118301",
+       "https://es.wikipedia.org/wiki/Ortodoncia",
+       "https://dbpedia.org/page/Orthodontics"
+    ],
+    "provider":{
+       "@id":"https://dentistaenarturosoria.es/#dentist"
+    }
+ }
+]
+}
+</script>

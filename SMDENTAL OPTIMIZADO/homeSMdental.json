@@ -1,0 +1,50 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  {
+    "@type": "DentalClinic",
+    "@id": "https://smdental.es/#clinic",
+    "url": "https://smdental.es/",
+    "name": "SM Dental",
+    "logo": "https://smdental.es/wp-content/uploads/2022/06/SM-logo-horizontal-blanco-2048x340.png",
+    "description":"Clínica dental en Tres Cantos | SM Dental",
+    "telephone": "+34 635 73 00 38",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. de Colmenar Viejo, 37",
+      "addressLocality": "Madrid",
+      "postalCode": "28670",
+      "addressCountry": "ES"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "40.61059140",
+      "longitude": "-3.71250220"
+    },
+    "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Wednesday", "Thursday"],
+      "opens": "09:00",
+      "closes": "13:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Wednesday", "Thursday"],
+      "opens": "16:00",
+      "closes": "20:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Friday"],
+      "opens": "09:00",
+      "closes": "14:30"
+    }
+    ],
+    "image": "https://smdental.es/wp-content/uploads/2024/04/silvia-munoz-implantologia-en-tres-cantos-equipo.webp",
+    "sameAs": [
+      "https://www.instagram.com/clinica.dental.sm/"
+    ]
+  }
+}
+</script>

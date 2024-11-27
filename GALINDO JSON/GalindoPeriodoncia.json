@@ -1,0 +1,89 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+      "@type": "Dentist",
+      "name": "Dentistas en Málaga | Galindo Dentistas",
+      "image": "https://galindodentistas.com/wp-content/uploads/2022/06/galindodentistas-logo_horizontal_slogan-1024x248-2.jpg",
+      "@id": "https://galindodentistas.com/#dentist",
+      "url": "https://galindodentistas.com/",
+      "telephone": "+34 952 36 80 90",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Edificio Araucaria, Pl. de la Solidaridad, 7, Portal 1, 1º A, Distrito Centro, 29002 Málaga",
+        "addressLocality": "Málaga",
+        "postalCode": "29002",
+        "addressCountry": "ES"
+      },
+      "hasMap":"https://maps.app.goo.gl/GBkzBF71D5pQ5RQE7",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 36.714566200983974, 
+        "longitude": -4.431419743006657
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "10:00",
+        "closes": "20:00"
+      }],
+      "sameAs": [
+        "https://www.facebook.com/people/Galindo-Dentistas/100066338667081/",
+        "https://www.instagram.com/galindo.dentistas/",
+        "https://maps.app.goo.gl/GBkzBF71D5pQ5RQE7"
+      ] 
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://galindodentistas.com/#website",
+      "url":"https://galindodentistas.com/",
+      "name":"Dentistas en Málaga | Galindo Dentistas",
+      "description":"Dentistas en Málaga",
+      "publisher":{
+         "@id":"https://galindodentistas.com/#dentist"
+      },
+      "potentialAction":[
+         {
+            "@type":"SearchAction",
+            "target":{
+               "@type":"EntryPoint",
+               "urlTemplate":"https://galindodentistas.com/?s={search_term_string}"
+            },
+            "query-input":"required name=search_term_string"
+         }
+      ],
+      "inLanguage":"es"
+   },
+ {
+    "@type":[
+       "MedicalProcedure",
+       "Service"
+    ],
+    "@id":"https://galindodentistas.com/tratamientos-dentales/limpieza-dental/#service",
+    "name":"Periodoncia",
+    "url":"https://galindodentistas.com/tratamientos-dentales/limpieza-dental/",
+    "mainEntityOfPage":{
+      "@type": "MedicalWebPage",
+       "@id":"https://galindodentistas.com/tratamientos-dentales/limpieza-dental/#medicalwebpage"
+    },
+    "sameAs":[
+       "https://meshb.nlm.nih.gov/record/ui?ui=D010517",
+       "https://www.wikidata.org/wiki/Q938196",
+       "https://es.wikipedia.org/wiki/periodoncia",
+       "https://dbpedia.org/page/Periodontology"
+    ],
+    "provider":{
+       "@id":"https://galindodentistas.com/#dentist"
+    }
+ }
+]
+}
+</script>

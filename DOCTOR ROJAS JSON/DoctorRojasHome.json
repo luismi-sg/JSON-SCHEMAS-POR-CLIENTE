@@ -1,0 +1,68 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+  {
+    "@type": "MedicalClinic",
+    "name": "Tratamientos dentales con sedación con anestesista | Sedación Dental Madrid",
+    "image": "https://sedaciondentalmadrid.es/wp-content/uploads/2022/06/Logotipo-Sedacion-Dental-Madrid-1.webp",
+    "@id": "https://sedaciondentalmadrid.es/#medicalclinic",
+    "url": "https://sedaciondentalmadrid.es/",
+    "telephone": "+34 644 319 349",
+    "priceRange": "€€",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "C. Luarca, 13, 28231 Las Rozas de Madrid, Madrid",
+      "addressLocality": "Madrid",
+      "postalCode": "28231",
+      "addressCountry": "ES"
+    },
+    "hasMap":"https://maps.app.goo.gl/poycsp6uDzFtqBsR9",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.488344289403166, 
+      "longitude": -3.8753278924918724
+    },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "08:00",
+      "closes": "16:00"
+    }],
+    "sameAs": [
+      "https://maps.app.goo.gl/poycsp6uDzFtqBsR9",
+      "https://www.facebook.com/sedaciondental.madrid/",
+      "https://www.instagram.com/sedaciondental/",
+      "https://www.linkedin.com/in/sedacion-dental-madrid-67285a15b/"
+    ] 
+  },
+  {
+    "@type":"WebSite",
+    "@id":"https://sedaciondentalmadrid.es/#website",
+    "url":"https://sedaciondentalmadrid.es/",
+    "name":"Sedación Dental Madrid",
+    "description":"Tratamientos dentales con sedación con anestesista | Sedación Dental Madrid",
+    "publisher":{
+       "@id":"https://sedaciondentalmadrid.es/#medicalclinic"
+    },
+    "potentialAction":[
+       {
+          "@type":"SearchAction",
+          "target":{
+             "@type":"EntryPoint",
+             "urlTemplate":"https://sedaciondentalmadrid.es/?s={search_term_string}"
+          },
+          "query-input":"required name=search_term_string"
+       }
+    ],
+    "inLanguage":"es"
+ }
+]
+}
+</script>

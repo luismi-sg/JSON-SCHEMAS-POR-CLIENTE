@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Estética Dental",
+  "description": "La estética dental es una especialidad de la odontología que se encarga de mejorar la apariencia de los dientes y encías. En la Clínica Argadent, nuestros dentistas en Arganda del Rey ofrecen tratamientos de estética dental para mejorar la sonrisa de nuestros pacientes.",
+  "url": "https://argadent.com/estetica-dental/",
+  "id": "https://argadent.com/estetica-dental/#procedure",
+  "provider": {
+    "@type": "DentalClinic",
+    "@id": "https://argadent.com/#clinic",
+    "name": "Argadent",
+    "url": "https://argadent.com/"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": ["Arganda del Rey"]
+  },
+  "sameAs": [
+    "https://es.wikipedia.org/wiki/Odontolog%C3%ADa_est%C3%A9tica"
+  ]
+}
+</script>

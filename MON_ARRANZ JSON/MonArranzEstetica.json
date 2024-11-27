@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Estética Dental",
+  "description": "La estética dental es una especialidad de la odontología que se encarga de mejorar la apariencia de los dientes y encías. En la actualidad, la estética dental es una de las especialidades más demandadas en la odontología, ya que cada vez son más las personas que desean lucir una sonrisa bonita y saludable.",
+  "url": "https://odontoestetica.es/tratamientos-dentales/estetica-dental/",
+  "id": "https://odontoestetica.es/tratamientos-dentales/estetica-dental/#procedure",
+  "provider": {
+    "@type": "DentalClinic",
+    "@id": "https://odontoestetica.es/#clinic",
+    "name": "Dra. Mónica Arranz | Centro Odontológico y Estética Dental",
+    "url": "https://odontoestetica.es/"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": ["El Cañaveral", "Coslada" , "San Fernando"]
+  },
+  "sameAs": [
+    "https://es.wikipedia.org/wiki/Odontolog%C3%ADa_est%C3%A9tica"
+  ]
+}
+</script>

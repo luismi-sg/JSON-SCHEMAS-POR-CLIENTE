@@ -1,0 +1,88 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dentist",
+      "name": "Ortodoncia en Don Benito | Clínica Dental Ascension Martín-Pérez",
+      "image": "https://ortodonciaendonbenito.es/wp-content/uploads/2022/06/logo-ascension-martin.webp",
+      "@id": "https://ortodonciaendonbenito.es/#dentist",
+      "url": "https://ortodonciaendonbenito.es/",
+      "telephone": "+34 924 80 55 49",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. de la Constitución, 68, 06400 Don Benito, Badajoz",
+        "addressLocality": "Badajoz",
+        "postalCode": "06400",
+        "addressCountry": "ES"
+      },
+      "hasMap":"https://maps.app.goo.gl/J84CYcgzgvwZ98QP7",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 38.96029718794704, 
+        "longitude": -5.861710573834363
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "10:00",
+        "closes": "20:30"
+      }],
+      "sameAs": [
+        "https://maps.app.goo.gl/J84CYcgzgvwZ98QP7",
+        "https://dentistadeconfianza.es/ortodoncia-en-don-benito/"
+      ] 
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://ortodonciaendonbenito.es/#website",
+      "url":"https://ortodonciaendonbenito.es/",
+      "name":"Ortodoncia en Don Benito",
+      "description":"Ortodoncia en Don Benito | Clínica Dental Ascension Martín-Pérez",
+      "publisher":{
+         "@id":"https://ortodonciaendonbenito.es/#dentist"
+      },
+      "potentialAction":[
+         {
+            "@type":"SearchAction",
+            "target":{
+               "@type":"EntryPoint",
+               "urlTemplate":"https://ortodonciaendonbenito.es/?s={search_term_string}"
+            },
+            "query-input":"required name=search_term_string"
+         }
+      ],
+      "inLanguage":"es"
+   },
+ {
+    "@type":[
+       "MedicalProcedure",
+       "Service"
+    ],
+    "@id":"https://ortodonciaendonbenito.es/tratamientos-dentales/ortodoncia/#service",
+    "name":"Ortodoncia",
+    "url":"https://ortodonciaendonbenito.es/tratamientos-dentales/ortodoncia/",
+    "mainEntityOfPage":{
+      "@type": "MedicalWebPage",
+      "@id":"https://ortodonciaendonbenito.es/tratamientos-dentales/ortodoncia/#medicalwebpage"
+    },
+    "sameAs":[
+       "https://meshb.nlm.nih.gov/record/ui?ui=D009970",
+       "https://www.wikidata.org/wiki/Q118301",
+       "https://es.wikipedia.org/wiki/Ortodoncia",
+       "https://dbpedia.org/page/Orthodontics"
+    ],
+    "provider":{
+       "@id":"https://ortodonciaendonbenito.es/#dentist"
+    }
+ }
+]
+}
+</script>

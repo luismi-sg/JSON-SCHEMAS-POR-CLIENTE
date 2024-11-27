@@ -1,0 +1,68 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+  {
+    "@type": "Dentist",
+    "name": "Dentistas Algete Dental Bruguier",
+    "image": "https://clinicadentalbruguier.com/wp-content/uploads/2022/06/logo-dental-Bruguier.webp",
+    "@id": "https://clinicadentalbruguier.com/#dentist",
+    "url": "https://clinicadentalbruguier.com/",
+    "telephone": "+34 916293020",
+    "priceRange": "€€",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "C. de Jorge Manrique, S/N, 28110 Algete, Madrid",
+      "addressLocality": "Madrid",
+      "postalCode": "28110",
+      "addressCountry": "ES"
+    },
+    "hasMap":"https://maps.app.goo.gl/N6tdW5MRYbN2ux158",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.59720599328383,
+      "longitude": -3.5056614039687326
+    },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ],
+      "opens": "10:00",
+      "closes": "20:00"
+    }],
+    "sameAs": [
+      "https://www.facebook.com/DentalBruguier",
+      "https://www.youtube.com/@ClinicaDentalBruguier",
+      "https://maps.app.goo.gl/N6tdW5MRYbN2ux158",
+      "https://dentistadeconfianza.es/dentista-en-algete/",
+      "https://www.instagram.com/dentalbruguier/"
+    ] 
+  },
+  {
+    "@type":"WebSite",
+    "@id":"https://clinicadentalbruguier.com/#website",
+    "url":"https://clinicadentalbruguier.com/",
+    "name":"Dentistas Algete Dental Bruguier",
+    "description":"Dentistas Algete Dental Bruguier",
+    "publisher":{
+       "@id":"https://clinicadentalbruguier.com/#dentist"
+    },
+    "potentialAction":[
+       {
+          "@type":"SearchAction",
+          "target":{
+             "@type":"EntryPoint",
+             "urlTemplate":"https://clinicadentalbruguier.com/?s={search_term_string}"
+          },
+          "query-input":"required name=search_term_string"
+       }
+    ],
+    "inLanguage":"es"
+ }
+]
+}
+</script>

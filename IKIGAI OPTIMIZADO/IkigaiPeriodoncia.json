@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Periodoncia",
+  "description": "La periodoncia es una especialidad de la odontología que se encarga de prevenir, diagnosticar y tratar las enfermedades de las encías. En la Clínica Ikigai Dental, nuestros dentistas en El Cañaveral ofrecen tratamientos de periodoncia para mantener la salud bucal de nuestros pacientes.",
+  "url": "https://ikigaidental.com/periodoncia/",
+  "id": "https://ikigaidental.com/periodoncia/#procedure",
+  "provider": {
+    "@type": "DentalClinic",
+    "@id": "https://ikigaidental.com/#clinic",
+    "name": "Clínica Ikigai Dental",
+    "url": "https://ikigaidental.com/"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": ["El Cañaveral", "Coslada" , "San Fernando"]
+  },
+  "sameAs": [
+    "https://es.wikipedia.org/wiki/Periodoncia"
+  ]
+}
+</script>

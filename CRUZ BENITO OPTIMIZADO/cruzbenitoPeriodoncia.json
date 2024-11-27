@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Periodoncia",
+  "description": "En la Clínica Dental Cruz Benito contamos con un equipo de profesionales especializados en periodoncia que te ayudarán a mantener tus encías sanas y cuidadas. Estamos en Pozuelo y Aravaca.",
+  "url": "https://cruzbenito.es/periodoncia/",
+  "id": "https://cruzbenito.es/periodoncia/#procedure",
+  "provider": {
+    "@type": "DentalClinic",
+    "@id": "https://cruzbenito.es/#clinic",
+    "name": "Clínica Dental Cruz Benito",
+    "url": "https://cruzbenito.es/"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": ["Pozuelo", "Aravaca"]
+  },
+  "sameAs": [
+    "https://es.wikipedia.org/wiki/Periodoncia"
+  ]
+}
+</script>

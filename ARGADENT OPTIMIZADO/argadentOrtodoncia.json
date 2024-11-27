@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Ortodoncia",
+  "description": "La ortodoncia es una especialidad de la odontología que se encarga de corregir la posición de los dientes y mandíbula. En la Clínica Argadent, nuestros dentistas en Arganda del Rey ofrecen tratamientos de ortodoncia para mejorar la salud bucal de nuestros pacientes.",
+  "url": "https://argadent.com/ortodoncia/",
+  "id": "https://argadent.com/ortodoncia/#procedure",
+  "provider": {
+    "@type": "DentalClinic",
+    "@id": "https://argadent.com/#clinic",
+    "name": "Argadent",
+    "url": "https://argadent.com/"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": ["Arganda del Rey"]
+  },
+  "sameAs": [
+    "https://es.wikipedia.org/wiki/Ortodoncia"
+  ]
+}
+</script>

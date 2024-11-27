@@ -1,0 +1,97 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dentist",
+      "name": "Dentista en Loeches | Clínica Dental Cueto",
+      "image": "https://dentalcueto.es/wp-content/uploads/2023/07/logo-cueto_Mesa-de-trabajo-1.svg",
+      "@id": "https://dentalcueto.es/#dentist",
+      "url": "https://dentalcueto.es/",
+      "telephone": "+34 918 851 775",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Plaza de la Villa, C. Arganda, 1, 28890 Loeches, Madrid",
+        "addressLocality": "Loeches",
+        "postalCode": "28890",
+        "addressCountry": "ES"
+      },
+      "hasMap":"https://maps.app.goo.gl/ABKtfKQm1imbXJij7",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.38320120289755,
+        "longitude": -3.4092538396378504
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday"
+        ],
+        "opens": "09:30",
+        "closes": "21:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+            "Friday"
+        ],
+        "opens": "09:30",
+        "closes": "14:00"
+    }],
+      "sameAs": [
+        "https://twitter.com/DentalCueto",
+        "https://www.instagram.com/dentalcueto/",
+        "https://maps.app.goo.gl/ABKtfKQm1imbXJij7",
+        "https://dentistadeconfianza.es/dentistas-en-azca/"
+      ] 
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://dentalcueto.es/#website",
+      "url":"https://dentalcueto.es/",
+      "name":"Dentista en Loeches | Clínica Dental Cueto",
+      "description":"Dentista en Loeches | Clínica Dental Cueto",
+      "publisher":{
+         "@id":"https://dentalcueto.es/#dentist"
+      },
+      "potentialAction":[
+         {
+            "@type":"SearchAction",
+            "target":{
+               "@type":"EntryPoint",
+               "urlTemplate":"https://dentalcueto.es/?s={search_term_string}"
+            },
+            "query-input":"required name=search_term_string"
+         }
+      ],
+      "inLanguage":"es"
+   },
+ {
+    "@type":[
+       "MedicalProcedure",
+       "Service"
+    ],
+    "@id":"https://dentalcueto.es/tratamientos-dentales/odontopediatria/#service",
+    "name":"Odontopediatria",
+    "url":"https://dentalcueto.es/tratamientos-dentales/odontopediatria/",
+    "mainEntityOfPage":{
+      "@type": "MedicalWebPage",
+      "@id":"https://dentalcueto.es/tratamientos-dentales/odontopediatria/#medicalwebpage"
+    },
+    "sameAs":[
+       "https://meshb.nlm.nih.gov/record/ui?ui=D010377",
+       "https://www.wikidata.org/wiki/Q2086597",
+       "https://es.wikipedia.org/wiki/Odontopediatr%C3%ADa",
+       "https://dbpedia.org/page/Pediatric_dentistry"
+    ],
+    "provider":{
+       "@id":"https://dentalcueto.es/#dentist"
+    }
+ }
+]
+}
+</script>

@@ -1,0 +1,51 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  {
+    "@type": "DentalClinic",
+    "@id": "https://argadent.com/#clinic",
+    "url": "https://argadent.com/",
+    "name": "Argadent",
+    "logo": "https://argadent.com/wp-content/uploads/2022/06/logo-argadent.svg",
+    "description":"Dentistas en Arganda del Rey | Argadent",
+    "telephone": "+34 918 71 77 45",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Calle Pdte. Felipe González, 1, Arganda del Rey, Madrid",
+      "addressLocality": "Madrid",
+      "postalCode": "28500",
+      "addressCountry": "ES"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "40.29564690",
+      "longitude": "-3.44588620"
+    },
+    "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Wednesday", "Thursday", "Friday"],
+      "opens": "10:00",
+      "closes": "13:30"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Wednesday", "Thursday", "Friday"],
+      "opens": "16:00",
+      "closes": "20:30"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Tuesday"],
+      "opens": "10:00",
+      "closes": "20:00"
+    }
+    ],
+    "image": "https://argadent.com/wp-content/uploads/2023/04/DOCTORES.png",
+    "sameAs": [
+      "https://www.facebook.com/argadent.clinicadental/",
+      "https://www.instagram.com/argadent/"
+    ]
+  }
+}
+</script>

@@ -1,0 +1,72 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+  {
+    "@type": "Dentist",
+    "name": "Dalydent Centro Dental Implantológico S.L.P.",
+    "image": "https://dalydent.es/wp-content/uploads/2022/06/logo-Dalydent_300.png",
+    "@id": "https://dalydent.es/#dentist",
+    "url": "https://dalydent.es/",
+    "telephone": "+34 91 817 23 60",
+    "priceRange": "€€",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "C. Zarza, 29, 45950 Casarrubios del Monte, Toledo",
+      "addressLocality": "Toledo",
+      "postalCode": "45950",
+      "addressCountry": "ES"
+    },
+    "hasMap":"https://maps.app.goo.gl/iQZDcHCFco99799R9",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.18524838917858,
+      "longitude": -4.0374784619002
+    },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:30",
+      "closes": "20:00"
+    }],
+    "sameAs": [
+      "https://www.facebook.com/centrodentaldalydent/",
+      "https://maps.app.goo.gl/iQZDcHCFco99799R9",
+      "https://dentistadeconfianza.es/dentista-en-valmojado-dalydent/",
+      "https://dentistadeconfianza.es/dentista-en-casarrubios-dalydent/",
+      "https://garantiadeclinica.com/clinicas-dentales-en-toledo/dentista-en-casarrubios-del-monte/",
+      "https://garantiadeclinica.com/clinicas-dentales-en-toledo/dentista-en-valmojado/",
+      "https://garantiadeclinica.com/dr-jose-carlos-tamayo-toledo/",
+      "https://garantiadeclinica.com/dra-gretel-irina-mendiola-toledo/"
+    ] 
+  },
+  {
+    "@type":"WebSite",
+    "@id":"https://dalydent.es/#website",
+    "url":"https://dalydent.es/",
+    "name":"Dalydent Centro Dental Implantológico S.L.P.",
+    "description":"Dalydent Centro Dental Implantológico S.L.P.",
+    "publisher":{
+       "@id":"https://dalydent.es/#dentist"
+    },
+    "potentialAction":[
+       {
+          "@type":"SearchAction",
+          "target":{
+             "@type":"EntryPoint",
+             "urlTemplate":"https://dalydent.es/?s={search_term_string}"
+          },
+          "query-input":"required name=search_term_string"
+       }
+    ],
+    "inLanguage":"es"
+    }
+  ]
+}
+</script>

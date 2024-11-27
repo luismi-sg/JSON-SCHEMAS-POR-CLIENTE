@@ -1,0 +1,88 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dentist",
+      "name": "Ammonite Centro Oral, Dental y Maxilofacial",
+      "image": "https://clinicaammonite.com/wp-content/uploads/2023/07/Ammonite-logo-Horizontal.svg",
+      "@id": "https://clinicaammonite.com/#dentist",
+      "url": "https://clinicaammonite.com/",
+      "telephone": "+34 910 88 80 20",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "P.º del Marqués de Zafra, 31, Salamanca, 28028 Madrid",
+        "addressLocality": "Madrid",
+        "postalCode": "28028",
+        "addressCountry": "ES"
+      },
+      "hasMap":"https://maps.app.goo.gl/aDA3YkathQYKq1rr5",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.42625557951699,
+        "longitude": -3.664525493631255
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "10:00",
+        "closes": "19:00"
+      }],
+      "sameAs": [
+        "https://maps.app.goo.gl/aDA3YkathQYKq1rr5",
+        "https://dentistadeconfianza.es/clinica-maxilofacial-madrid/"
+      ] 
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://clinicaammonite.com/#website",
+      "url":"https://clinicaammonite.com/",
+      "name":"Ammonite Centro Oral, Dental y Maxilofacial",
+      "description":"Ammonite Centro Oral, Dental y Maxilofacial",
+      "publisher":{
+         "@id":"https://clinicaammonite.com/#dentist"
+      },
+      "potentialAction":[
+         {
+            "@type":"SearchAction",
+            "target":{
+               "@type":"EntryPoint",
+               "urlTemplate":"https://clinicaammonite.com/?s={search_term_string}"
+            },
+            "query-input":"required name=search_term_string"
+         }
+      ],
+      "inLanguage":"es"
+   },
+ {
+    "@type":[
+       "MedicalProcedure",
+       "Service"
+    ],
+    "@id":"https://clinicaammonite.com/tratamientos-dentales/odontologia-restauradora/#service",
+    "name":"Odontología General",
+    "url":"https://clinicaammonite.com/tratamientos-dentales/odontologia-restauradora/",
+    "mainEntityOfPage":{
+      "@type": "MedicalWebPage",
+      "@id":"https://clinicaammonite.com/tratamientos-dentales/odontologia-restauradora/#medicalwebpage"
+    },
+    "sameAs":[
+       "https://meshb.nlm.nih.gov/record/ui?ui=D003813",
+       "https://www.wikidata.org/wiki/Q12128",
+       "https://es.wikipedia.org/wiki/Odontolog%C3%ADa",
+       "https://dbpedia.org/page/Dentistry"
+    ],
+    "provider":{
+       "@id":"https://clinicaammonite.com/#dentist"
+    }
+ }
+]
+}
+</script>

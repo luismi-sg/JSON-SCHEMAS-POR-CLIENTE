@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Odontopediatría",
+  "description": "La odontopediatría es una especialidad de la odontología que se encarga de la salud bucal de los niños. En Dental Lucena, nuestros dentistas en Lucena ofrecen tratamientos de odontopediatría para mantener la salud bucal de los más pequeños.",
+  "url": "https://dentistasenlucena.com/odontopediatria/",
+  "id": "https://dentistasenlucena.com/odontopediatria/#procedure",
+  "provider": {
+    "@type": "DentalClinic",
+    "@id": "https://dentistasenlucena.com/#clinic",
+    "name": "Dental Lucena",
+    "url": "https://dentistasenlucena.com/"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": ["Lucena", "Córdoba" , "Andalucía"]
+  },
+  "sameAs": [
+    "https://es.wikipedia.org/wiki/Odontopediatr%C3%ADa"
+  ]
+}
+</script>

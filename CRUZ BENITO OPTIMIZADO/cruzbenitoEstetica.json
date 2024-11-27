@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Estética Dental",
+  "description": "En la Clínica Dental Cruz Benito contamos con un equipo de profesionales especializados en estética dental que te ayudarán a conseguir la sonrisa que siempre has deseado. Estamos en Pozuelo y Aravaca.",
+  "url": "https://cruzbenito.es/estetica-dental/",
+  "id": "https://cruzbenito.es/estetica-dental/#procedure",
+  "provider": {
+    "@type": "DentalClinic",
+    "@id": "https://cruzbenito.es/#clinic",
+    "name": "Clínica Dental Cruz Benito",
+    "url": "https://cruzbenito.es/"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": ["Pozuelo", "Aravaca"]
+  },
+  "sameAs": [
+    "https://es.wikipedia.org/wiki/Odontolog%C3%ADa_est%C3%A9tica"
+  ]
+}
+</script>

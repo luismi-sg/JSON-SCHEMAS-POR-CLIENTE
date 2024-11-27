@@ -1,0 +1,66 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+  {
+    "@type": "Dentist",
+    "name": "Dentistas en San Sebastián de los Reyes | Besmile",
+    "image": "https://besmile.es/wp-content/uploads/2021/06/logo-besmile-transparente-400x118-1.png",
+    "@id": "https://besmile.es/#dentist",
+    "url": "https://besmile.es/",
+    "telephone": "+34 916 67 77 38",
+    "priceRange": "€€",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "C. Julio Rey Pastor, 6, 28702 San Sebastián de los Reyes, Madrid",
+      "addressLocality": "Madrid",
+      "postalCode": "28702",
+      "addressCountry": "ES"
+    },
+    "hasMap":"https://maps.app.goo.gl/Q1z2YC71fVPPkkej7",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.56538248783717,
+      "longitude": -3.6100853340777417
+    },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "10:00",
+      "closes": "20:00"
+    }],
+    "sameAs": [
+      "https://www.facebook.com/besmiledental",
+      "https://maps.app.goo.gl/Q1z2YC71fVPPkkej7"
+    ] 
+  },
+  {
+    "@type":"WebSite",
+    "@id":"https://besmile.es/#website",
+    "url":"https://besmile.es/",
+    "name":"Dentistas en San Sebastián de los Reyes | Besmile",
+    "description":"Dentistas en San Sebastián de los Reyes ",
+    "publisher":{
+       "@id":"https://besmile.es/#dentist"
+    },
+    "potentialAction":[
+       {
+          "@type":"SearchAction",
+          "target":{
+             "@type":"EntryPoint",
+             "urlTemplate":"https://besmile.es/?s={search_term_string}"
+          },
+          "query-input":"required name=search_term_string"
+       }
+    ],
+    "inLanguage":"es"
+ }
+]
+}
+</script>

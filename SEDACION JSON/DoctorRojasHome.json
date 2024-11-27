@@ -1,0 +1,69 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+  {
+    "@type": "MedicalClinic",
+    "name": "Medicina Estética en Madrid | Dr. Rojas Medicina Estética",
+    "image": "https://doctorrojas.es/wp-content/uploads/2022/06/Dr-Rojas-ClinicaEstetica.png",
+    "@id": "https://doctorrojas.es/#medicalclinic",
+    "url": "https://doctorrojas.es/",
+    "telephone": "+34 914680911",
+    "priceRange": "€€",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. de Menéndez Pelayo, 115, Retiro, 28007 Madrid",
+      "addressLocality": "Madrid",
+      "postalCode": "28007",
+      "addressCountry": "ES"
+    },
+    "hasMap":"https://maps.app.goo.gl/nFVB1wJkS2Ji4sRA9",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.404988287049825,
+      "longitude": -3.6800945935472957
+    },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "08:00",
+      "closes": "20:00"
+    }],
+    "sameAs": [
+      "https://maps.app.goo.gl/nFVB1wJkS2Ji4sRA9",
+      "https://www.facebook.com/Dr.RojasCirujano",
+      "https://www.instagram.com/doctorrojasoficial/",
+      "https://dentistadeconfianza.es/injerto-capilar-en-mendez-alvaro-dr-rojas/",
+      "https://garantiadeclinica.com/dr-yordank-rojas-madrid/"
+    ] 
+  },
+  {
+    "@type":"WebSite",
+    "@id":"https://doctorrojas.es/#website",
+    "url":"https://doctorrojas.es/",
+    "name":"Medicina Estética en Madrid | Dr. Rojas Medicina Estética",
+    "description":"Dr. Rojas Medicina Estética",
+    "publisher":{
+       "@id":"https://doctorrojas.es/#medicalclinic"
+    },
+    "potentialAction":[
+       {
+          "@type":"SearchAction",
+          "target":{
+             "@type":"EntryPoint",
+             "urlTemplate":"https://doctorrojas.es/?s={search_term_string}"
+          },
+          "query-input":"required name=search_term_string"
+       }
+    ],
+    "inLanguage":"es"
+ }
+]
+}
+</script>

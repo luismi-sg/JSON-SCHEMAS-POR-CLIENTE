@@ -1,0 +1,86 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dentist",
+      "name": "Clínica Dental Dres. Martínez",
+      "image": "https://dresmartinez.es/wp-content/uploads/2022/06/Logo-Clinica-Dental-Martinez-1.png",
+      "@id": "https://dresmartinez.es/#dentist",
+      "url": "https://dresmartinez.es/",
+      "telephone": "+34 916 20 13 72",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "C. Martina García, 4, 28140 Fuente el Saz de Jarama, Madrid",
+        "addressLocality": "Madrid",
+        "postalCode": "28140",
+        "addressCountry": "ES"
+      },
+      "hasMap":"https://maps.app.goo.gl/s7kcPZXSJJn885Eu5",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.634269527522555,
+        "longitude": -3.5131344681761996
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday"
+        ],
+        "opens": "10:00",
+        "closes": "20:00"
+      }],
+      "sameAs": [
+        "https://maps.app.goo.gl/DAoFbJmUHhnjTppTA"
+      ] 
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://dresmartinez.es/#website",
+      "url":"https://dresmartinez.es/",
+      "name":"Clínica Dental Dres. Martínez",
+      "description":"Clínica Dental Dres. Martínez",
+      "publisher":{
+         "@id":"https://dresmartinez.es/#dentist"
+      },
+      "potentialAction":[
+         {
+            "@type":"SearchAction",
+            "target":{
+               "@type":"EntryPoint",
+               "urlTemplate":"https://dresmartinez.es/?s={search_term_string}"
+            },
+            "query-input":"required name=search_term_string"
+         }
+      ],
+      "inLanguage":"es"
+   },
+ {
+    "@type":[
+       "MedicalProcedure",
+       "Service"
+    ],
+    "@id":"https://dresmartinez.es/tratamientos-dentales/implantes-dentales/#service",
+    "name":"Implantes Dentales",
+    "url":"https://dresmartinez.es/tratamientos-dentales/implantes-dentales/",
+    "mainEntityOfPage":{
+      "@type": "MedicalWebPage",
+      "@id":"https://dresmartinez.es/tratamientos-dentales/implantes-dentales/#medicalwebpage"
+    },
+    "sameAs":[
+       "https://meshb.nlm.nih.gov/record/ui?ui=D015921",
+       "https://www.wikidata.org/wiki/Q143680",
+       "https://es.wikipedia.org/wiki/Implantolog%C3%ADa_dental",
+       "https://dbpedia.org/page/Dental_implant"
+    ],
+    "provider":{
+       "@id":"https://clinicaammonite.com/#dentist"
+    }
+ }
+]
+}
+</script>

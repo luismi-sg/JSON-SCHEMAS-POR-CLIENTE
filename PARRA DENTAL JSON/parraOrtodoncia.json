@@ -1,0 +1,90 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dentist",
+      "name": "Dentistas en Torrelodones | Clínica Dental Parra",
+      "image": "https://dentistatorrelodones.es/wp-content/uploads/2022/06/LOGO_NORMAL_AZUL.png",
+      "@id": "https://dentistatorrelodones.es/#dentist",
+      "url": "https://dentistatorrelodones.es/",
+      "telephone": "+34 918590209",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "C. los Ángeles, 2, Portal 3 - Piso 1º, 28250 Torrelodones, Madrid",
+        "addressLocality": "Madrid",
+        "postalCode": "28250",
+        "addressCountry": "ES"
+      },
+      "hasMap":"https://maps.app.goo.gl/1rhkQEQnUnX2wRZ36",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.57725428515304,
+        "longitude": -3.929628255010967
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "21:00"
+      }],
+      "sameAs": [
+        "https://www.facebook.com/people/Centro-Odontol%C3%B3gico-Adelaida-Parra/100091660357643/",
+        "https://www.instagram.com/dentaladelaidaparra/",
+        "https://maps.app.goo.gl/1rhkQEQnUnX2wRZ36",
+        "https://dentistadeconfianza.es/dentistas-en-torrelodones/"
+      ] 
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://dentistatorrelodones.es/#website",
+      "url":"https://dentistatorrelodones.es/",
+      "name":"Dentistas en Torrelodones",
+      "description":"Dentistas en Torrelodones | Clínica Dental Parra",
+      "publisher":{
+         "@id":"https://dentistatorrelodones.es/#dentist"
+      },
+      "potentialAction":[
+         {
+            "@type":"SearchAction",
+            "target":{
+               "@type":"EntryPoint",
+               "urlTemplate":"https://dentistatorrelodones.es/?s={search_term_string}"
+            },
+            "query-input":"required name=search_term_string"
+         }
+      ],
+      "inLanguage":"es"
+   },
+ {
+    "@type":[
+       "MedicalProcedure",
+       "Service"
+    ],
+    "@id":"https://dentistatorrelodones.es/tratamientos-dentales/ortodoncia/#service",
+    "name":"Ortodoncia",
+    "url":"https://dentistatorrelodones.es/tratamientos-dentales/ortodoncia/",
+    "mainEntityOfPage":{
+      "@type": "MedicalWebPage",
+      "@id":"https://dentistatorrelodones.es/tratamientos-dentales/ortodoncia/#medicalwebpage"
+    },
+    "sameAs":[
+       "https://meshb.nlm.nih.gov/record/ui?ui=D009970",
+       "https://www.wikidata.org/wiki/Q118301",
+       "https://es.wikipedia.org/wiki/Ortodoncia",
+       "https://dbpedia.org/page/Orthodontics"
+    ],
+    "provider":{
+       "@id":"https://dentistatorrelodones.es/#dentist"
+    }
+ }
+]
+}
+</script>

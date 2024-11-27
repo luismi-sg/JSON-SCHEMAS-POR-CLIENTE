@@ -1,0 +1,90 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dentist",
+      "name": "Clínica Dental Escuder",
+      "image": "https://clinicadentalescuder.com/wp-content/uploads/2022/06/logo-clinica-silvana-escuder.png",
+      "@id": "https://clinicadentalescuder.com/#dentist",
+      "url": "https://clinicadentalescuder.com/",
+      "telephone": "+34 915943318",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Calle de Sta Engracia, 28, Chamberí, 28010 Madrid",
+        "addressLocality": "Madrid",
+        "postalCode": "28010",
+        "addressCountry": "ES"
+      },
+      "hasMap":"https://maps.app.goo.gl/ywt583ZADcdCcXMP6",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.431391719511275,
+        "longitude": -3.6964735728887916
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:30",
+        "closes": "20:00"
+      }],
+      "sameAs": [
+        "https://www.facebook.com/ClinicaDentalEscuder",
+        "https://www.instagram.com/silvana.escuder/",
+        "https://maps.app.goo.gl/ywt583ZADcdCcXMP6",
+        "https://dentistadeconfianza.es/dentista-en-santa-engracia"
+      ] 
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://clinicadentalescuder.com/#website",
+      "url":"https://clinicadentalescuder.com/",
+      "name":"Clínica Dental Escuder",
+      "description":"Dentistas en Santa Engracia | Clínica Dental Escuder",
+      "publisher":{
+         "@id":"https://clinicadentalescuder.com/#dentist"
+      },
+      "potentialAction":[
+         {
+            "@type":"SearchAction",
+            "target":{
+               "@type":"EntryPoint",
+               "urlTemplate":"https://clinicadentalescuder.com/?s={search_term_string}"
+            },
+            "query-input":"required name=search_term_string"
+         }
+      ],
+      "inLanguage":"es"
+   },
+ {
+    "@type":[
+       "MedicalProcedure",
+       "Service"
+    ],
+    "@id":"https://clinicadentalescuder.com/tratamientos-dentales/ortodoncia/#service",
+    "name":"Ortodoncia",
+    "url":"https://clinicadentalescuder.com/tratamientos-dentales/ortodoncia/",
+    "mainEntityOfPage":{
+      "@type": "MedicalWebPage",
+      "@id":"https://clinicadentalescuder.com/tratamientos-dentales/ortodoncia/#medicalwebpage"
+    },
+    "sameAs":[
+       "https://meshb.nlm.nih.gov/record/ui?ui=D009970",
+       "https://www.wikidata.org/wiki/Q118301",
+       "https://es.wikipedia.org/wiki/Ortodoncia",
+       "https://dbpedia.org/page/Orthodontics"
+    ],
+    "provider":{
+       "@id":"https://clinicadentalescuder.com/#dentist"
+    }
+ }
+]
+}
+</script>

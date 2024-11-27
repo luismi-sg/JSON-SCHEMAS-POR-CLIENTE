@@ -1,0 +1,69 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+  {
+    "@type": "Dentist",
+    "name": "Eva Barranco | Coaching y Marketing Dental",
+    "image": "https://evabarranco.es/wp-content/uploads/2022/06/EvaBarranco-logo.pngl",
+    "@id": "https://evabarranco.es/#dentist",
+    "url": "https://evabarranco.es/",
+    "telephone": "+34 913430328",
+    "priceRange": "€€",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "P.º de La Habana, 170, bajo izqda, Chamartín, 28036 Madrid",
+      "addressLocality": "Madrid",
+      "postalCode": "28036",
+      "addressCountry": "ES"
+    },
+    "hasMap":"https://maps.app.goo.gl/WEwa1qgyTLySqf3g6",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.459449789906415,
+      "longitude": -3.6809420803396056
+    },
+    "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "18:00"
+    }],
+    "sameAs": [
+      "https://es.linkedin.com/in/evabarranco",
+      "https://www.facebook.com/evabarrancocoach/",
+      "https://maps.app.goo.gl/WEwa1qgyTLySqf3g6",
+      "https://maps.app.goo.gl/tNfQSMqaQVpUaRa1A",
+      "https://www.instagram.com/evabarrancocoach/"
+    ] 
+  },
+  {
+    "@type":"WebSite",
+    "@id":"https://evabarranco.es/#website",
+    "url":"https://evabarranco.es/",
+    "name":"Coaching Dental en Madrid | Eva Barranco",
+    "description":"Coaching Dental en Madrid | Eva Barranco",
+    "publisher":{
+       "@id":"https://evabarranco.es/#dentist"
+    },
+    "potentialAction":[
+       {
+          "@type":"SearchAction",
+          "target":{
+             "@type":"EntryPoint",
+             "urlTemplate":"https://evabarranco.es/?s={search_term_string}"
+          },
+          "query-input":"required name=search_term_string"
+       }
+    ],
+    "inLanguage":"es"
+ }
+]
+}
+</script>

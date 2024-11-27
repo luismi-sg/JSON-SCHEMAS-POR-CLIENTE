@@ -1,0 +1,91 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dentist",
+      "name": "Dentista en Gálvez | Clínica Dental Ortiz",
+      "image": "https://www.clinicadentalortiz.com/wp-content/uploads/Logo_web-e1554806017971.png",
+      "@id": "https://www.clinicadentalortiz.com/#dentist",
+      "url": "https://www.clinicadentalortiz.com/",
+      "telephone": "+34 925 41 21 75",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "C. Rollo, 1, 45164 Gálvez, Toledo.",
+        "addressLocality": "Toledo",
+        "postalCode": "45164",
+        "addressCountry": "ES"
+      },
+      "hasMap":"https://maps.app.goo.gl/AJVYJ5UTJEgeaV686",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.700344652931626,
+        "longitude": -4.273908783489667
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "20:00"
+      }
+    ],
+      "sameAs": [
+        "https://www.facebook.com/clinicadentaldraortiz/",
+        "https://www.instagram.com/clinicadentalortiz/",
+        "https://maps.app.goo.gl/AJVYJ5UTJEgeaV686",
+        "https://dentistadeconfianza.es/dentista-en-galvez/"
+      ] 
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://www.clinicadentalortiz.com/#website",
+      "url":"https://www.clinicadentalortiz.com/",
+      "name":"Clínica Dental Ortiz",
+      "description":"Dentista en Gálvez | Clínica Dental Ortiz",
+      "publisher":{
+         "@id":"https://www.clinicadentalortiz.com/#dentist"
+      },
+      "potentialAction":[
+         {
+            "@type":"SearchAction",
+            "target":{
+               "@type":"EntryPoint",
+               "urlTemplate":"https://www.clinicadentalortiz.com/?s={search_term_string}"
+            },
+            "query-input":"required name=search_term_string"
+         }
+      ],
+      "inLanguage":"es"
+   },
+ {
+    "@type":[
+       "MedicalProcedure",
+       "Service"
+    ],
+    "@id":"https://www.clinicadentalortiz.com/periodoncia/#service",
+    "name":"Periodoncia",
+    "url":"https://www.clinicadentalortiz.com/periodoncia/",
+    "mainEntityOfPage":{
+      "@type": "MedicalWebPage",
+      "@id":"https://www.clinicadentalortiz.com/periodoncia/#medicalwebpage"
+    },
+    "sameAs":[
+       "https://meshb.nlm.nih.gov/record/ui?ui=D010517",
+       "https://www.wikidata.org/wiki/Q938196",
+       "https://es.wikipedia.org/wiki/periodoncia",
+       "https://dbpedia.org/page/Periodontology"
+    ],
+    "provider":{
+       "@id":"https://www.clinicadentalortiz.com/#dentist"
+    }
+ }
+]
+}
+</script>

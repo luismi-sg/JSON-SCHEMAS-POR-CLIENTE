@@ -1,0 +1,52 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+    {
+      "@type": "DentalClinic",
+      "@id": "https://cruzbenito.es/#clinic",
+      "url": "https://cruzbenito.es/",
+      "name": "Clínica Dental Cruz Benito",
+      "logo": "https://cruzbenito.es/wp-content/uploads/2022/06/Cruz-Benito-logo-oficial-01.webp",
+      "description":"Dentistas en Aravaca Clínica Dental Cruz Benito",
+      "telephone": "+34 913 08 15 71",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Calle Dr. Balmis, 36, Moncloa - Aravaca",
+        "addressLocality": "Madrid",
+        "postalCode": "28023",
+        "addressCountry": "ES"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "40.45890540",
+        "longitude": "-3.79584480"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+          "opens": "09:00",
+          "closes": "14:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+          "opens": "16:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Friday"],
+          "opens": "09:00",
+          "closes": "15:00"
+        }
+      ],
+      "image": "https://cruzbenito.es/wp-content/uploads/2024/05/equipo-clinica-dental-cruz-benito-1024x683.webp",
+      "sameAs": [
+        "https://www.facebook.com/profile.php?id=100089906720331",
+        "https://www.instagram.com/cruzbenito_clinicadental/",
+        "https://www.youtube.com/@CruzBenitoClinicaDental"
+      ]
+    }
+}
+</script>

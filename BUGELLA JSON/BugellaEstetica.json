@@ -1,0 +1,98 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dentist",
+      "name": "Clínica Dental en Getafe | Bugella & Rubio",
+      "image": "https://bugellayrubio.com/wp-content/uploads/2021/06/logotipo.svg",
+      "@id": "https://bugellayrubio.com/#dentist",
+      "url": "https://bugellayrubio.com/",
+      "telephone": "+34 910695137",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Avenida Rocinante, 2, 28906 Getafe, Madrid.",
+        "addressLocality": "Madrid",
+        "postalCode": "28906",
+        "addressCountry": "ES"
+      },
+      "hasMap":"https://maps.app.goo.gl/Jn2oPDXZbfNYFMdg6",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.31675521948683,
+        "longitude": -3.7012127914911264
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday"
+        ],
+        "opens": "09:30",
+        "closes": "20:30"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Friday"
+        ],
+        "opens": "09:30",
+        "closes": "15:30"
+      }
+    ],
+      "sameAs": [
+        "https://www.facebook.com/bugellayrubio",
+        "https://www.instagram.com/bugellayrubio/",
+        "https://maps.app.goo.gl/Jn2oPDXZbfNYFMdg6",
+        "https://dentistadeconfianza.es/dentista-en-getafe/"
+      ] 
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://bugellayrubio.com/#website",
+      "url":"https://bugellayrubio.com/",
+      "name":"Bugella & Rubio",
+      "description":"Clínica Dental en Getafe | Bugella & Rubio",
+      "publisher":{
+         "@id":"https://bugellayrubio.com/#dentist"
+      },
+      "potentialAction":[
+         {
+            "@type":"SearchAction",
+            "target":{
+               "@type":"EntryPoint",
+               "urlTemplate":"https://bugellayrubio.com/?s={search_term_string}"
+            },
+            "query-input":"required name=search_term_string"
+         }
+      ],
+      "inLanguage":"es"
+   },
+ {
+    "@type":[
+       "MedicalProcedure",
+       "Service"
+    ],
+    "@id":"https://bugellayrubio.com/odontologia-restauradora-y-estetica/#service",
+    "name":"Estética Dental",
+    "url":"https://bugellayrubio.com/odontologia-restauradora-y-estetica/",
+    "mainEntityOfPage":{
+      "@type": "MedicalWebPage",
+      "@id":"https://bugellayrubio.com/odontologia-restauradora-y-estetica/#medicalwebpage"
+    },
+    "sameAs":[
+       "https://meshb.nlm.nih.gov/record/ui?ui=D004955",
+       "https://www.wikidata.org/wiki/Q113726486",
+       "https://es.wikipedia.org/wiki/Odontolog%C3%ADa_est%C3%A9tica",
+       "https://pubmed.ncbi.nlm.nih.gov/31633462/"
+    ],
+    "provider":{
+       "@id":"https://bugellayrubio.com/#dentist"
+    }
+ }
+]
+}
+</script>

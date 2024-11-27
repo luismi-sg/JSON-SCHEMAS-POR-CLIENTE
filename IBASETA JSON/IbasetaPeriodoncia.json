@@ -1,0 +1,92 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dentist",
+      "name": "Dentistas en Avilés | Clínica Ibaseta",
+      "image": "https://dentistasenaviles.es/wp-content/uploads/2022/06/logo-ibaseta.png",
+      "@id": "https://dentistasenaviles.es/#dentist",
+      "url": "https://dentistasenaviles.es/",
+      "telephone": "+34 985565116",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "C. de la Cámara, 9, 3º, 33402 Avilés, Asturias",
+        "addressLocality": "Asturias",
+        "postalCode": "33402",
+        "addressCountry": "ES"
+      },
+      "hasMap":"https://maps.app.goo.gl/8eeQ3xZuNe9LKUL87",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.55586404392338,
+        "longitude": -5.9230701977062274
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Wednesday",
+          "Thursday",
+          "Fidray"
+        ],
+        "opens": "10:00",
+        "closes": "19:00"
+      }
+    ],
+      "sameAs": [
+        "https://www.facebook.com/clinicaibaseta",
+        "https://www.youtube.com/channel/UCr6EOqYVuTN86mMDv4EHAyw",
+        "https://www.instagram.com/clinicaibaseta/",
+        "https://maps.app.goo.gl/HK37xRAzowTBMER88",
+        "https://dentistadeconfianza.es/dentista-en-aviles/",
+        "https://garantiadeclinica.com/dr-guillermo-ibaseta/",
+        "https://garantiadeclinica.com/clinicas-dentales-en-asturias/dentista-en-aviles/"
+      ] 
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://dentistasenaviles.es/#website",
+      "url":"https://dentistasenaviles.es/",
+      "name":"Clínica Ibaseta",
+      "description":"Dentistas en Avilés | Clínica Ibaseta",
+      "publisher":{
+         "@id":"https://dentistasenaviles.es/#dentist"
+      },
+      "potentialAction":[
+         {
+            "@type":"SearchAction",
+            "target":{
+               "@type":"EntryPoint",
+               "urlTemplate":"https://dentistasenaviles.es/?s={search_term_string}"
+            },
+            "query-input":"required name=search_term_string"
+         }
+      ],
+      "inLanguage":"es"
+   },
+ {
+    "@type":[
+       "MedicalProcedure",
+       "Service"
+    ],
+    "@id":"https://dentistasenaviles.es/tratamientos-dentales/odontologia-general/#service",
+    "name":"Periodoncia",
+    "url":"https://dentistasenaviles.es/tratamientos-dentales/odontologia-general/",
+    "mainEntityOfPage":{
+      "@type": "MedicalWebPage",
+      "@id":"https://dentistasenaviles.es/tratamientos-dentales/odontologia-general/#medicalwebpage"
+    },
+    "sameAs":[
+       "https://meshb.nlm.nih.gov/record/ui?ui=D010517",
+       "https://www.wikidata.org/wiki/Q938196",
+       "https://es.wikipedia.org/wiki/periodoncia",
+       "https://dbpedia.org/page/Periodontology"
+    ],
+    "provider":{
+       "@id":"https://dentistasenaviles.es/#dentist"
+    }
+ }
+]
+}
+</script>

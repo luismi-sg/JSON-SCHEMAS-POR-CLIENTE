@@ -1,0 +1,92 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dentist",
+      "name": "Dentista en Leganés | Odontología Amiga",
+      "image": "https://odontologiaamiga.com/wp-content/uploads/2022/06/logo-odonto-amiga.png",
+      "@id": "https://odontologiaamiga.com/#dentist",
+      "url": "https://odontologiaamiga.com/",
+      "telephone": "+34 912 63 00 03",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "C. Nápoles, 16, 28912 Leganés, Madrid",
+        "addressLocality": "Madrid",
+        "postalCode": "28912",
+        "addressCountry": "ES"
+      },
+      "hasMap":"https://maps.app.goo.gl/eiNd12QBAWRnf4tv7",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.330356892052606,
+        "longitude": -3.7626435191813816
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "10:00",
+        "closes": "20:00"
+      }],
+      "sameAs": [
+        "https://www.facebook.com/odontologiamigaleganes/",
+        "https://www.instagram.com/clinicadentalodontologiamiga/",
+        "https://maps.app.goo.gl/eiNd12QBAWRnf4tv7",
+        "https://dentistadeconfianza.es/clinica-dental-en-leganes-odontologia-amiga/",
+        "https://garantiadeclinica.com/clinicas-dentales-en-madrid/dentista-en-leganes/",
+        "https://garantiadeclinica.com/dra-lujan-navas-leganes/"
+      ] 
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://odontologiaamiga.com/#website",
+      "url":"https://odontologiaamiga.com/",
+      "name":"Dentista en Leganés | Odontología Amiga",
+      "description":"Dentista en Leganés | Odontología Amiga",
+      "publisher":{
+         "@id":"https://odontologiaamiga.com/#dentist"
+      },
+      "potentialAction":[
+         {
+            "@type":"SearchAction",
+            "target":{
+               "@type":"EntryPoint",
+               "urlTemplate":"https://odontologiaamiga.com/?s={search_term_string}"
+            },
+            "query-input":"required name=search_term_string"
+         }
+      ],
+      "inLanguage":"es"
+   },
+ {
+    "@type":[
+       "MedicalProcedure",
+       "Service"
+    ],
+    "@id":"https://odontologiaamiga.com/tratamientos-dentales/implantes-dentales/#service",
+    "name":"Implantes Dentales",
+    "url":"https://odontologiaamiga.com/tratamientos-dentales/implantes-dentales/",
+    "mainEntityOfPage":{
+      "@type": "MedicalWebPage",
+      "@id":"https://odontologiaamiga.com/tratamientos-dentales/implantes-dentales/#medicalwebpage"
+    },
+    "sameAs":[
+       "https://meshb.nlm.nih.gov/record/ui?ui=D015921",
+       "https://www.wikidata.org/wiki/Q143680",
+       "https://es.wikipedia.org/wiki/Implantolog%C3%ADa_dental",
+       "https://dbpedia.org/page/Dental_implant"
+    ],
+    "provider":{
+       "@id":"https://odontologiaamiga.com/#dentist"
+    }
+ }
+]
+}
+</script>

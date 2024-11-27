@@ -1,0 +1,90 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dentist",
+      "name": "Dentistas en Azuqueca de Henares| Clínicas DentaLMC",
+      "image": "https://dentalmc.es/wp-content/uploads/2022/06/Logo-DentaLmc.png",
+      "@id": "https://dentalmc.es/#dentist",
+      "url": "https://dentalmc.es/",
+      "telephone": "+34 675 92 96 92",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Plaza Castilla 1 locales C .D esq, C. Toledo, 19200 Azuqueca de Henares, Guadalajara",
+        "addressLocality": "Guadalajara",
+        "postalCode": "19200",
+        "addressCountry": "ES"
+      },
+      "hasMap":"https://maps.app.goo.gl/SL4M5jnDZVVb3wvQ9",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.564878633304204,
+        "longitude": -3.263442901850687
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "10:00",
+        "closes": "20:00"
+      }
+    ],
+      "sameAs": [
+        "https://www.facebook.com/people/Dentalmc/100064228146510/",
+        "https://maps.app.goo.gl/SL4M5jnDZVVb3wvQ9",
+        "https://dentistadeconfianza.es/dentistas-en-azuqueca-del-henares/"
+      ] 
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://dentalmc.es/#website",
+      "url":"https://dentalmc.es/",
+      "name":"DentaLMC",
+      "description":"Dentistas en Azuqueca de Henares| Clínicas DentaLMC",
+      "publisher":{
+         "@id":"https://dentalmc.es/#dentist"
+      },
+      "potentialAction":[
+         {
+            "@type":"SearchAction",
+            "target":{
+               "@type":"EntryPoint",
+               "urlTemplate":"https://dentalmc.es/?s={search_term_string}"
+            },
+            "query-input":"required name=search_term_string"
+         }
+      ],
+      "inLanguage":"es"
+   },
+ {
+    "@type":[
+       "MedicalProcedure",
+       "Service"
+    ],
+    "@id":"https://dentalmc.es/tratamientos-dentales/periodoncia/#service",
+    "name":"Periodoncia",
+    "url":"https://dentalmc.es/tratamientos-dentales/periodoncia/",
+    "mainEntityOfPage":{
+      "@type": "MedicalWebPage",
+      "@id":"https://dentalmc.es/tratamientos-dentales/periodoncia/#medicalwebpage"
+    },
+    "sameAs":[
+       "https://meshb.nlm.nih.gov/record/ui?ui=D010517",
+       "https://www.wikidata.org/wiki/Q938196",
+       "https://es.wikipedia.org/wiki/periodoncia",
+       "https://dbpedia.org/page/Periodontology"
+    ],
+    "provider":{
+       "@id":"https://dentalmc.es/#dentist"
+    }
+ }
+]
+}
+</script>

@@ -1,0 +1,90 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dentist",
+      "name": "Dentistas en Valdemoro | Clínica Dental Cristaldent",
+      "image": "https://cristaldent.es/wp-content/uploads/2022/06/Logo-Cristaldent-Horizontal.png",
+      "@id": "https://cristaldent.es/#dentist",
+      "url": "https://cristaldent.es/",
+      "telephone": "+34 918 095 102",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "C. de Febo, 4, 28341 Valdemoro, Madrid",
+        "addressLocality": "Madrid",
+        "postalCode": "28341",
+        "addressCountry": "ES"
+      },
+      "hasMap":"https://maps.app.goo.gl/oTh7ad9Zs2sGH72e6",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.18119552333909,
+        "longitude": -3.6843059345869835
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "10:00",
+        "closes": "20:00"
+      }],
+      "sameAs": [
+        "https://www.facebook.com/people/Cl%C3%ADnica-Dental-Cristaldent/100092203860963/",
+        "https://www.instagram.com/cristaldentt/",
+        "https://maps.app.goo.gl/oTh7ad9Zs2sGH72e6",
+        "https://dentistadeconfianza.es/dentistas-en-valdemoro/"
+      ] 
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://cristaldent.es/#website",
+      "url":"https://cristaldent.es/",
+      "name":"Dentistas en Valdemoro | Clínica Dental Cristaldent",
+      "description":"Clínica Dental Cristaldent",
+      "publisher":{
+         "@id":"https://cristaldent.es/#dentist"
+      },
+      "potentialAction":[
+         {
+            "@type":"SearchAction",
+            "target":{
+               "@type":"EntryPoint",
+               "urlTemplate":"https://cristaldent.es/?s={search_term_string}"
+            },
+            "query-input":"required name=search_term_string"
+         }
+      ],
+      "inLanguage":"es"
+   },
+ {
+    "@type":[
+       "MedicalProcedure",
+       "Service"
+    ],
+    "@id":"https://cristaldent.es/tratamientos-dentales/ortodoncia/#service",
+    "name":"Ortodoncia",
+    "url":"https://cristaldent.es/tratamientos-dentales/ortodoncia/",
+    "mainEntityOfPage":{
+      "@type": "MedicalWebPage",
+      "@id":"https://cristaldent.es/tratamientos-dentales/ortodoncia/#medicalwebpage"
+    },
+    "sameAs":[
+       "https://meshb.nlm.nih.gov/record/ui?ui=D009970",
+       "https://www.wikidata.org/wiki/Q118301",
+       "https://es.wikipedia.org/wiki/Ortodoncia",
+       "https://dbpedia.org/page/Orthodontics"
+    ],
+    "provider":{
+       "@id":"https://cristaldent.es/#dentist"
+    }
+ }
+]
+}
+</script>

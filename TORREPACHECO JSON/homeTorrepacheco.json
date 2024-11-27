@@ -1,0 +1,69 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+  {
+    "@type": "Dentist",
+    "name": "Dentistas en Murcia | Clínica Dental Torrepacheco",
+    "image": "https://dentaltorrepacheco.es/wp-content/uploads/2022/06/Dental_torrepacheco.jpg",
+    "@id": "https://dentaltorrepacheco.es/#dentist",
+    "url": "https://dentaltorrepacheco.es/",
+    "telephone": "+34 868 08 58 20",
+    "priceRange": "€€",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. de Fontes, 13, 30700 Torre-Pacheco, Murcia",
+      "addressLocality": "Murcia",
+      "postalCode": "30700",
+      "addressCountry": "ES"
+    },
+    "hasMap":"https://maps.app.goo.gl/ZTxiQ35Sb25nbtNf6",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 37.741613343786064, 
+      "longitude": -0.9546963495657133
+    },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "08:45",
+      "closes": "16:00"
+    }],
+    "sameAs": [
+      "https://www.facebook.com/dentaltorrepacheco",
+      "https://garantiadeclinica.com/clinicas-dentales-en-murcia/dentista-en-torre-pacheco/",
+      "https://maps.app.goo.gl/ZTxiQ35Sb25nbtNf6",
+      "https://garantiadeclinica.com/dr-julio-santos-murcia/",
+      "https://dentistadeconfianza.es/dentista-en-torrepacheco/"
+    ] 
+  },
+  {
+    "@type":"WebSite",
+    "@id":"https://dentaltorrepacheco.es/#website",
+    "url":"https://dentaltorrepacheco.es/",
+    "name":"Dentistas en Murcia",
+    "description":"Dentistas en Murcia | Clínica Dental Torrepacheco",
+    "publisher":{
+       "@id":"https://dentaltorrepacheco.es/#dentist"
+    },
+    "potentialAction":[
+       {
+          "@type":"SearchAction",
+          "target":{
+             "@type":"EntryPoint",
+             "urlTemplate":"https://dentaltorrepacheco.es/?s={search_term_string}"
+          },
+          "query-input":"required name=search_term_string"
+       }
+    ],
+    "inLanguage":"es"
+ }
+]
+}
+</script>

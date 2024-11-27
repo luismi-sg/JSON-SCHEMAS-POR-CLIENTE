@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Odontología General",
+  "description": "La odontología general es una especialidad de la odontología que se encarga de prevenir, diagnosticar y tratar las enfermedades bucodentales más comunes. La odontología general es una de las especialidades más importantes en la odontología, ya que es fundamental cuidar la salud bucodental de los pacientes de todas las edades.",
+  "url": "https://odontoestetica.es/tratamientos-dentales/odontologia-general/",
+  "id": "https://odontoestetica.es/tratamientos-dentales/odontologia-general/#procedure",
+  "provider": {
+    "@type": "DentalClinic",
+    "@id": "https://odontoestetica.es/#clinic",
+    "name": "Dra. Mónica Arranz | Centro Odontológico y Estética Dental",
+    "url": "https://odontoestetica.es/"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": ["El Cañaveral", "Coslada" , "San Fernando"]
+  },
+  "sameAs": [
+    "https://es.wikipedia.org/wiki/Odontolog%C3%ADa"
+  ]
+}
+</script>

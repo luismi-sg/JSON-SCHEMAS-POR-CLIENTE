@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Ortodoncia",
+  "description": "La ortodoncia es una especialidad de la odontología que se encarga de corregir la posición de los dientes y mandíbula. En Dental Lucena, nuestros dentistas en Lucena ofrecen tratamientos de ortodoncia para mejorar la salud bucal de nuestros pacientes.",
+  "url": "https://dentistasenlucena.com/ortodoncia/",
+  "id": "https://dentistasenlucena.com/ortodoncia/#procedure",
+  "provider": {
+    "@type": "DentalClinic",
+    "@id": "https://dentistasenlucena.com/#clinic",
+    "name": "Dental Lucena",
+    "url": "https://dentistasenlucena.com/"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": ["Lucena", "Córdoba" , "Andalucía"]
+  },
+  "sameAs": [
+    "https://es.wikipedia.org/wiki/Ortodoncia"
+  ]
+}
+</script>

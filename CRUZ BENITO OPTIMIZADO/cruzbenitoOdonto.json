@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Odontología General",
+  "description": "En la Clínica Dental Cruz Benito contamos con un equipo de profesionales especializados en odontología general que te ayudarán a mantener una boca sana y cuidada. Estamos en Pozuelo y Aravaca.",
+  "url": "https://cruzbenito.es/odontologia-general/",
+  "id": "https://cruzbenito.es/odontologia-general/#procedure",
+  "provider": {
+    "@type": "DentalClinic",
+    "@id": "https://cruzbenito.es/#clinic",
+    "name": "Clínica Dental Cruz Benito",
+    "url": "https://cruzbenito.es/"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": ["Pozuelo", "Aravaca"]
+  },
+  "sameAs": [
+    "https://es.wikipedia.org/wiki/Odontolog%C3%ADa"
+  ]
+}
+</script>

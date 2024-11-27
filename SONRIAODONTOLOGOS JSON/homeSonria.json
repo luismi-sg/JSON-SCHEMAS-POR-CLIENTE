@@ -1,0 +1,69 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+  {
+    "@type": "Dentist",
+    "name": "Dentistas en Vivero |  Clínica Dental Sonría Odontólogos",
+    "image": "https://sonriaodontologos.com/wp-content/uploads/2022/06/Logo-Sonria-Odont300.webp",
+    "@id": "https://sonriaodontologos.com/#dentist",
+    "url": "https://sonriaodontologos.com/",
+    "telephone": "+34 914867004",
+    "priceRange": "€€",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. de Pablo Iglesias, 17, 28942 Fuenlabrada, Madrid",
+      "addressLocality": "Fuenlabrada",
+      "postalCode": "28942",
+      "addressCountry": "ES"
+    },
+    "hasMap":"https://maps.app.goo.gl/EcGLxtLL2YLrgjYU7",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.30436470199785,
+      "longitude": -3.8325040970435515
+    },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "10:00",
+      "closes": "21:30"
+    }],
+    "sameAs": [
+      "https://www.instagram.com/sonriaodontologos_clinica/",
+      "https://www.facebook.com/sonriaOdontologosLoranca/",
+      "https://maps.app.goo.gl/EcGLxtLL2YLrgjYU7",
+      "https://garantiadeclinica.com/clinicas-dentales-en-madrid/dentistas-en-fuenlabrada/",
+      "https://dentistadeconfianza.es/dentistas-en-fuenlabrada/"
+    ] 
+  },
+  {
+    "@type":"WebSite",
+    "@id":"https://sonriaodontologos.com/#website",
+    "url":"https://sonriaodontologos.com/",
+    "name":"Dentistas en Vivero | Clínica Dental Sonría Odontólogos",
+    "description":"Especialista en ortodoncia invisible.",
+    "publisher":{
+       "@id":"https://sonriaodontologos.com/#dentist"
+    },
+    "potentialAction":[
+       {
+          "@type":"SearchAction",
+          "target":{
+             "@type":"EntryPoint",
+             "urlTemplate":"https://sonriaodontologos.com/?s={search_term_string}"
+          },
+          "query-input":"required name=search_term_string"
+       }
+    ],
+    "inLanguage":"es"
+    }
+  ]
+}
+</script>

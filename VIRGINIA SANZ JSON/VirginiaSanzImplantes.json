@@ -1,0 +1,89 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dentist",
+      "name": "Dentistas en Soria | Virginia Sanz Clínica Dental",
+      "image": "https://clinicavirginiasanz.es/wp-content/uploads/2023/07/1550053107.png",
+      "@id": "https://clinicavirginiasanz.es/#dentist",
+      "url": "https://clinicavirginiasanz.es/",
+      "telephone": "+34 975 22 18 50",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "C. Aduana Vieja, 1, 42002 Soria",
+        "addressLocality": "Soria",
+        "postalCode": "42002",
+        "addressCountry": "ES"
+      },
+      "hasMap":"https://maps.app.goo.gl/uANJKqicy1S2yPwK9",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.76427124206384,
+        "longitude": -2.4669654186358168
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:30",
+        "closes": "20:00"
+      }],
+      "sameAs": [
+        "https://www.facebook.com/ClinicaDentalVirginiaSanz",
+        "https://www.instagram.com/clinicadentalvirginiasanz/?hl=es",
+        "https://maps.app.goo.gl/uANJKqicy1S2yPwK9"
+      ] 
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://clinicavirginiasanz.es/#website",
+      "url":"https://clinicavirginiasanz.es/",
+      "name":"Dentistas en Soria | Virginia Sanz Clínica Dental",
+      "description":"Dentistas en Soria | Virginia Sanz Clínica Dental",
+      "publisher":{
+         "@id":"https://clinicavirginiasanz.es/#dentist"
+      },
+      "potentialAction":[
+         {
+            "@type":"SearchAction",
+            "target":{
+               "@type":"EntryPoint",
+               "urlTemplate":"https://clinicavirginiasanz.es/?s={search_term_string}"
+            },
+            "query-input":"required name=search_term_string"
+         }
+      ],
+      "inLanguage":"es"
+   },
+ {
+    "@type":[
+       "MedicalProcedure",
+       "Service"
+    ],
+    "@id":"https://clinicavirginiasanz.es/tratamientos-dentales/implantes-dentales/#service",
+    "name":"Implantes Dentales",
+    "url":"https://clinicavirginiasanz.es/tratamientos-dentales/implantes-dentales/",
+    "mainEntityOfPage":{
+      "@type": "MedicalWebPage",
+      "@id":"https://clinicavirginiasanz.es/tratamientos-dentales/implantes-dentales/#medicalwebpage"
+    },
+    "sameAs":[
+       "https://meshb.nlm.nih.gov/record/ui?ui=D015921",
+       "https://www.wikidata.org/wiki/Q143680",
+       "https://es.wikipedia.org/wiki/Implantolog%C3%ADa_dental",
+       "https://dbpedia.org/page/Dental_implant"
+    ],
+    "provider":{
+       "@id":"https://clinicavirginiasanz.es/#dentist"
+    }
+ }
+]
+}
+</script>

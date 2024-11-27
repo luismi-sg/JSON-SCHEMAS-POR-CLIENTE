@@ -1,0 +1,90 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dentist",
+      "name": "Dentistas en Ciudad Real | Grataldent",
+      "image": "https://grataldent.com/wp-content/uploads/2022/06/Logotipo-grataldent.webp",
+      "@id": "https://grataldent.com/#dentist",
+      "url": "https://grataldent.com/",
+      "telephone": "+34 926200856",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. de los Reyes Católicos, 11, 13005 Ciudad Real",
+        "addressLocality": "Castilla-La Mancha",
+        "postalCode": "13005",
+        "addressCountry": "ES"
+      },
+      "hasMap":"https://maps.app.goo.gl/MuAkruhnRgN6DwuF7",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 38.97271770918634, 
+        "longitude": -3.9362964909441227
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "9:30",
+        "closes": "21:00"
+      }],
+      "sameAs": [
+        "https://www.facebook.com/grataldent/",
+        "https://www.instagram.com/clinicagrataldent/",
+        "https://maps.app.goo.gl/MuAkruhnRgN6DwuF7",
+        "https://dentistadeconfianza.es/dentistas-en-ciudad-real/"
+      ] 
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://grataldent.com/#website",
+      "url":"https://grataldent.com/",
+      "name":"Dentistas en Ciudad Real | Grataldent",
+      "description":"Dentistas en Ciudad Real | Grataldent",
+      "publisher":{
+         "@id":"https://grataldent.com/#dentist"
+      },
+      "potentialAction":[
+         {
+            "@type":"SearchAction",
+            "target":{
+               "@type":"EntryPoint",
+               "urlTemplate":"https://grataldent.com/?s={search_term_string}"
+            },
+            "query-input":"required name=search_term_string"
+         }
+      ],
+      "inLanguage":"es"
+   },
+ {
+    "@type":[
+       "MedicalProcedure",
+       "Service"
+    ],
+    "@id":"https://grataldent.com/tratamientos-dentales/odontologia-general/#service",
+    "name":"Odontología General",
+    "url":"https://grataldent.com/tratamientos-dentales/odontologia-general/",
+    "mainEntityOfPage":{
+      "@type": "MedicalWebPage",
+      "@id":"https://grataldent.com/tratamientos-dentales/odontologia-general/#medicalwebpage"
+    },
+    "sameAs":[
+       "https://meshb.nlm.nih.gov/record/ui?ui=D003813",
+       "https://www.wikidata.org/wiki/Q12128",
+       "https://es.wikipedia.org/wiki/Odontolog%C3%ADa",
+       "https://dbpedia.org/page/Dentistry"
+    ],
+    "provider":{
+       "@id":"https://grataldent.com/#dentist"
+    }
+ }
+]
+}
+</script>

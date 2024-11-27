@@ -1,0 +1,90 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dentist",
+      "name": "Implantología y Estética Dental en Cea Bermúdez | Dr Ramón Soto-Yarritu",
+      "image": "https://ramonsotoyarritu.es/wp-content/uploads/2022/06/Ramon-Soto-Yarritu-logo.png",
+      "@id": "https://ramonsotoyarritu.es/#dentist",
+      "url": "https://ramonsotoyarritu.es/",
+      "telephone": "+34 915333131",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "C. de Cea Bermúdez, 46, Chamberí, 28003 Madrid",
+        "addressLocality": "Madrid",
+        "postalCode": "28003",
+        "addressCountry": "ES"
+      },
+      "hasMap":"https://maps.app.goo.gl/upkrYbq7A2kzhy266",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.439262459219364, 
+        "longitude": -3.7117456257464227
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "19:00"
+      }],
+      "sameAs": [
+        "https://www.facebook.com/ramonsotoymiriamroderoclinicadental/",
+        "https://maps.app.goo.gl/upkrYbq7A2kzhy266",
+        "https://dentistadeconfianza.es/dentistas-en-cea-bermudez/",
+        "https://garantiadeclinica.com/clinicas-dentales-en-madrid/dentistas-en-cea-bermudez"
+      ] 
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://ramonsotoyarritu.es/#website",
+      "url":"https://ramonsotoyarritu.es/",
+      "name":"Dr Ramón Soto-Yarritu",
+      "description":"Implantología y Estética Dental en Cea Bermúdez | Doctor Ramón Soto-Yarritu",
+      "publisher":{
+         "@id":"https://ramonsotoyarritu.es/#dentist"
+      },
+      "potentialAction":[
+         {
+            "@type":"SearchAction",
+            "target":{
+               "@type":"EntryPoint",
+               "urlTemplate":"https://ramonsotoyarritu.es/?s={search_term_string}"
+            },
+            "query-input":"required name=search_term_string"
+         }
+      ],
+      "inLanguage":"es"
+   },
+ {
+    "@type":[
+       "MedicalProcedure",
+       "Service"
+    ],
+    "@id":"https://ramonsotoyarritu.es/tratamientos-dentales/implantes-dentales/#service",
+    "name":"Implantes Dentales",
+    "url":"https://ramonsotoyarritu.es/tratamientos-dentales/implantes-dentales/",
+    "mainEntityOfPage":{
+      "@type": "MedicalWebPage",
+      "@id":"https://ramonsotoyarritu.es/tratamientos-dentales/implantes-dentales/#medicalwebpage"
+    },
+    "sameAs":[
+       "https://meshb.nlm.nih.gov/record/ui?ui=D015921",
+       "https://www.wikidata.org/wiki/Q143680",
+       "https://es.wikipedia.org/wiki/Implantolog%C3%ADa_dental",
+       "https://dbpedia.org/page/Dental_implant"
+    ],
+    "provider":{
+       "@id":"https://ramonsotoyarritu.es/#dentist"
+    }
+ }
+]
+}
+</script>

@@ -1,0 +1,38 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  {
+    "@type": "DentalClinic",
+    "@id": "https://ramonsotoyarritu.es/#clinic",
+    "url": "https://ramonsotoyarritu.es/",
+    "name": "Clínica Dental Dr Ramón Soto-Yarritu",
+    "logo": "https://ramonsotoyarritu.es/wp-content/uploads/2022/06/Logo-Ramon-Soto-6.png",
+    "description":"Clínica dental Soto-Yarritu",
+    "telephone": "+34 915 33 31 31",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "C. de Cea Bermúdez, 46, 1º Centro, Chamberí, 28003 Madrid",
+      "addressLocality": "Madrid",
+      "postalCode": "28003",
+      "addressCountry": "ES"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "40.43909450",
+      "longitude": "-3.71199190"
+    },
+    "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday","Friday"],
+      "opens": "09:30",
+      "closes": "20:00"
+    }
+    ],
+    "image": "https://ramonsotoyarritu.es/wp-content/uploads/2024/04/Equipo-de-la-Clinica-Ramon-Soto-Yarritu-1024x576.webp",
+    "sameAs": [
+      "https://www.facebook.com/ramonsotoymiriamroderoclinicadental/"
+    ]
+  }
+}
+</script>

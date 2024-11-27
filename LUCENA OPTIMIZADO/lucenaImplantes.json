@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Implantes dentales",
+  "description": "Los implantes dentales son una solución permanente para reemplazar dientes perdidos. En Dental Lucena, nuestros dentistas en Lucena ofrecen tratamientos de implantes dentales para mejorar la salud bucal de nuestros pacientes.",
+  "url": "https://dentistasenlucena.com/implantes-dentales/",
+  "id": "https://dentistasenlucena.com/implantes-dentales/#procedure",
+  "provider": {
+    "@type": "DentalClinic",
+    "@id": "https://dentistasenlucena.com/#clinic",
+    "name": "Dental Lucena",
+    "url": "https://dentistasenlucena.com/"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": ["Lucena", "Córdoba" , "Andalucía"]
+  },
+  "sameAs": [
+    "https://es.wikipedia.org/wiki/Implantolog%C3%ADa_dental"
+  ]
+}
+</script>

@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Ortodoncia",
+  "description": "En la Clínica Dental Cruz Benito contamos con un equipo de profesionales especializados en ortodoncia que te ayudarán a corregir la posición de tus dientes y mejorar tu salud bucodental. Estamos en Pozuelo y Aravaca.",
+  "url": "https://cruzbenito.es/ortodoncia/",
+  "id": "https://cruzbenito.es/ortodoncia/#procedure",
+  "provider": {
+    "@type": "DentalClinic",
+    "@id": "https://cruzbenito.es/#clinic",
+    "name": "Clínica Dental Cruz Benito",
+    "url": "https://cruzbenito.es/"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": ["Pozuelo", "Aravaca"]
+  },
+  "sameAs": [
+    "https://es.wikipedia.org/wiki/Ortodoncia"
+  ]
+}
+</script>

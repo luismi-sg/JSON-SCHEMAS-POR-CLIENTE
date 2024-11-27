@@ -1,0 +1,117 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+  {
+    "@type": "ContactPage",
+    "name": "Clínica Dental en Arguelles | Dr Ramón Soto-Yarritu",
+    "image": "https://ramonsotoyarritu.es/wp-content/uploads/2022/06/Ramon-Soto-Yarritu-logo.png",
+    "@id": "https://ramonsotoyarritu.es/clinica-en-cea-bermudez/#dentist",
+    "url": "https://ramonsotoyarritu.es/clinica-en-cea-bermudez/",
+    "isPartOf":{
+      "@id":"https://ramonsotoyarritu.es/#website"
+    },
+    "potentialAction":[
+    {
+      "@type":"ReadAction",
+      "target":[
+        "https://ramonsotoyarritu.es/clinica-en-cea-bermudez/"
+      ]
+    }
+    ],
+   "description":"Visita nuestra clínica dental en calle Cea Bermúdez, en Barrio de Arguelles. Todas las especialidades en odontología para cuidar tu sonrisa.",
+    "sameAs": [
+      "https://www.facebook.com/ramonsotoymiriamroderoclinicadental/",
+      "https://maps.app.goo.gl/upkrYbq7A2kzhy266",
+      "https://dentistadeconfianza.es/dentistas-en-cea-bermudez/",
+      "https://garantiadeclinica.com/clinicas-dentales-en-madrid/dentistas-en-cea-bermudez"
+    ]
+  },
+  {
+    "@type": "Dentist",
+    "name": "Clínica Dental en Arguelles | Dr Ramón Soto-Yarritu",
+    "image": "https://ramonsotoyarritu.es/wp-content/uploads/2022/06/Ramon-Soto-Yarritu-logo.png",
+    "@id": "https://ramonsotoyarritu.es/clinica-en-cea-bermudez/#dentist",
+    "url": "https://ramonsotoyarritu.es/clinica-en-cea-bermudez/",
+    "isPartOf":{
+      "@id":"https://ramonsotoyarritu.es/#website"
+   },
+   "potentialAction":[
+    {
+      "@type":"ReadAction",
+      "target":[
+        "https://ramonsotoyarritu.es/clinica-en-cea-bermudez/"
+      ]
+    }
+    ],
+    "description":"Visita nuestra clínica dental en calle Cea Bermúdez, en Barrio de Arguelles. Todas las especialidades en odontología para cuidar tu sonrisa.",
+    "telephone": "+34 915 33 31 31",
+    "priceRange": "€€",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "C. de Cea Bermúdez, 46, Chamberí, 28003 Madrid",
+      "addressLocality": "Madrid",
+      "postalCode": "28003",
+      "addressCountry": "ES"
+    },
+    "hasMap":"https://maps.app.goo.gl/upkrYbq7A2kzhy266",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.43910124367424,
+      "longitude": -3.711973873276796
+    },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "19:00"
+    }],
+    "contactPoint":{
+      "@type":"ContactPoint",
+      "contactType":"customer support",
+      "name":"Clínica Cea Bermúdez | Dr. Ramón Soto Yarritu",
+      "telephone":"915 33 31 31",
+      "url":"https://ramonsotoyarritu.es/contacto/",
+      "email":"recepcion@ramonsotoyarritu.es",
+      "areaServed":[
+         "ES"
+      ],
+      "availableLanguage":"Spanish"
+   },
+    "sameAs": [
+      "https://www.facebook.com/ramonsotoymiriamroderoclinicadental/",
+      "https://maps.app.goo.gl/upkrYbq7A2kzhy266",
+      "https://dentistadeconfianza.es/dentistas-en-cea-bermudez/",
+      "https://garantiadeclinica.com/clinicas-dentales-en-madrid/dentistas-en-cea-bermudez"
+    ] 
+  },
+  {
+    "@type":"WebSite",
+    "@id":"https://ramonsotoyarritu.es/#website",
+    "url":"https://ramonsotoyarritu.es/",
+    "name":"Dr Ramón Soto-Yarritu",
+    "description":"Clínica Dental en Arguelles | Dr Ramón Soto-Yarritu",
+    "publisher":{
+       "@id":"https://ramonsotoyarritu.es/#dentist"
+    },
+    "potentialAction":[
+       {
+          "@type":"SearchAction",
+          "target":{
+             "@type":"EntryPoint",
+             "urlTemplate":"https://ramonsotoyarritu.es/?s={search_term_string}"
+          },
+          "query-input":"required name=search_term_string"
+       }
+    ],
+    "inLanguage":"es"
+ }
+]
+}
+</script>

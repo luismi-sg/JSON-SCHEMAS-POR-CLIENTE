@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Estetica Dental",
+  "description": "La estética dental es una especialidad de la odontología que se encarga de mejorar la apariencia de los dientes y encías. En Dental Lucena, nuestros dentistas en Lucena ofrecen tratamientos de estética dental para mejorar la sonrisa de nuestros pacientes.",
+  "url": "https://dentistasenlucena.com/estetica-dental/",
+  "id": "https://dentistasenlucena.com/estetica-dental/#procedure",
+  "provider": {
+    "@type": "DentalClinic",
+    "@id": "https://dentistasenlucena.com/#clinic",
+    "name": "Dental Lucena",
+    "url": "https://dentistasenlucena.com/"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": ["Lucena", "Córdoba" , "Andalucía"]
+  },
+  "sameAs": [
+    "https://es.wikipedia.org/wiki/Odontolog%C3%ADa_est%C3%A9tica"
+  ]
+}
+</script>

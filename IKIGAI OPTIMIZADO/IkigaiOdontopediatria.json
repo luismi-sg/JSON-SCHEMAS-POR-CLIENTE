@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Odontopediatria",
+  "description": "La odontopediatría es una especialidad de la odontología que se encarga de la salud bucal de los niños. En la Clínica Ikigai Dental, nuestros dentistas en El Cañaveral ofrecen tratamientos de odontopediatría para mantener la salud bucal de los más pequeños.",
+  "url": "https://ikigaidental.com/odontopediatria/",
+  "id": "https://ikigaidental.com/odontopediatria/#procedure",
+  "provider": {
+    "@type": "DentalClinic",
+    "@id": "https://ikigaidental.com/#clinic",
+    "name": "Clínica Ikigai Dental",
+    "url": "https://ikigaidental.com/"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": ["El Cañaveral", "Coslada" , "San Fernando"]
+  },
+  "sameAs": [
+    "https://es.wikipedia.org/wiki/Odontopediatr%C3%ADa"
+  ]
+}
+</script>

@@ -1,0 +1,90 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+      "@type": "Dentist",
+      "name": "Dentista en Brunete | Clínica Cabodental",
+      "image": "https://cabodental.es/wp-content/uploads/2023/07/cabodental-logo.jpg",
+      "@id": "https://cabodental.es/#dentist",
+      "url": "https://cabodental.es/",
+      "telephone": "+34 918 132 941",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "C. Real de San Sebastián, 22, 28690 Brunete, Madrid",
+        "addressLocality": "Madrid",
+        "postalCode": "28690",
+        "addressCountry": "ES"
+      },
+      "hasMap":"https://maps.app.goo.gl/5DHvRJfFs25QuUhf7",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.401669527728586,
+        "longitude": -3.9963584398466225
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "10:00",
+        "closes": "21:00"
+      }],
+      "sameAs": [
+        "https://www.facebook.com/cabodentalbrunete/",
+        "https://dentistadeconfianza.es/dentista-en-brunete/",
+        "https://maps.app.goo.gl/5DHvRJfFs25QuUhf7",
+        "https://www.instagram.com/cabodental/"
+      ] 
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://cabodental.es/#website",
+      "url":"https://cabodental.es/",
+      "name":"Dentista en Brunete | Clínica Cabodental",
+      "description":"Dentista en Brunete | Clínica Cabodental",
+      "publisher":{
+         "@id":"https://cabodental.es/#dentist"
+      },
+      "potentialAction":[
+         {
+            "@type":"SearchAction",
+            "target":{
+               "@type":"EntryPoint",
+               "urlTemplate":"https://cabodental.es/?s={search_term_string}"
+            },
+            "query-input":"required name=search_term_string"
+         }
+      ],
+      "inLanguage":"es"
+   },
+ {
+    "@type":[
+       "MedicalProcedure",
+       "Service"
+    ],
+    "@id":"https://cabodental.es/tratamientos-dentales/periodoncia/#service",
+    "name":"Periodoncia",
+    "url":"https://cabodental.es/tratamientos-dentales/periodoncia/",
+    "mainEntityOfPage":{
+      "@type": "MedicalWebPage",
+       "@id":"https://cabodental.es/tratamientos-dentales/periodoncia/#medicalwebpage"
+    },
+    "sameAs":[
+       "https://meshb.nlm.nih.gov/record/ui?ui=D010517",
+       "https://www.wikidata.org/wiki/Q938196",
+       "https://es.wikipedia.org/wiki/periodoncia",
+       "https://dbpedia.org/page/Periodontology"
+    ],
+    "provider":{
+       "@id":"https://cabodental.es/#dentist"
+    }
+ }
+]
+}
+</script>

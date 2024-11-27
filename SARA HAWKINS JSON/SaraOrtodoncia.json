@@ -1,0 +1,89 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dentist",
+      "name": "Ortodoncia en Hortaleza | Dra Sara Hawkins",
+      "image": "https://sarahawkins.es/wp-content/uploads/2022/06/Logo-Sara-Hawkins-1.png",
+      "@id": "https://sarahawkins.es/#dentist",
+      "url": "https://sarahawkins.es/",
+      "telephone": "+34 672 29 35 48",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. de San Luis, 54 (Esq. Luis Buitrago) 28033 Madrid",
+        "addressLocality": "Madrid",
+        "postalCode": "28033",
+        "addressCountry": "ES"
+      },
+      "hasMap":"https://maps.app.goo.gl/NvgsLEB9Jt6SozSj9",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.47280053360118,
+        "longitude": -3.651395207942573
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "10:00",
+        "closes": "20:00"
+      }],
+      "sameAs": [
+        "https://www.facebook.com/ceodentclinicadental/",
+        "https://maps.app.goo.gl/NvgsLEB9Jt6SozSj9",
+        "https://www.instagram.com/clinicaceodent/"
+      ] 
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://sarahawkins.es/#website",
+      "url":"https://sarahawkins.es/",
+      "name":"Ortodoncia en Hortaleza | Dra Sara Hawkins",
+      "description":"Ortodoncia en Hortaleza | Dra Sara Hawkins",
+      "publisher":{
+         "@id":"https://sarahawkins.es/#dentist"
+      },
+      "potentialAction":[
+         {
+            "@type":"SearchAction",
+            "target":{
+               "@type":"EntryPoint",
+               "urlTemplate":"https://sarahawkins.es/?s={search_term_string}"
+            },
+            "query-input":"required name=search_term_string"
+         }
+      ],
+      "inLanguage":"es"
+      },
+ {
+    "@type":[
+       "MedicalProcedure",
+       "Service"
+    ],
+    "@id":"https://sarahawkins.es/tratamientos-dentales/ortodoncia/#service",
+    "name":"Ortodoncia",
+    "url":"https://sarahawkins.es/tratamientos-dentales/ortodoncia/",
+    "mainEntityOfPage":{
+      "@type": "MedicalWebPage",
+      "@id":"https://sarahawkins.es/tratamientos-dentales/ortodoncia/#medicalwebpage"
+    },
+    "sameAs":[
+       "https://meshb.nlm.nih.gov/record/ui?ui=D009970",
+       "https://www.wikidata.org/wiki/Q118301",
+       "https://es.wikipedia.org/wiki/Ortodoncia",
+       "https://dbpedia.org/page/Orthodontics"
+    ],
+    "provider":{
+       "@id":"https://sarahawkins.es/#dentist"
+    }
+ }
+]
+}
+</script>

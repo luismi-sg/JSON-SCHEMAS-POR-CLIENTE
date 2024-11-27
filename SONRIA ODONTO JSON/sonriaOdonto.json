@@ -1,0 +1,92 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+      "@type": "Dentist",
+      "name": "Dentistas en Fuenlabrada | Clínica Dental Sonría Odontólogos",
+      "image": "https://sonriaodontologos.com/wp-content/uploads/2022/06/Logo-Sonria-Odont300.webp",
+      "@id": "https://sonriaodontologos.com/#dentist",
+      "url": "https://sonriaodontologos.com/",
+      "telephone": "+34 914 86 70 04",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Cl. de Ernesto Che Guevara, 19, 28942 Fuenlabrada, Madrid",
+        "addressLocality": "Madrid",
+        "postalCode": "28942",
+        "addressCountry": "ES"
+      },
+      "hasMap":"https://maps.app.goo.gl/B2WALgSQgAY3PPwF8",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.28951354331443, 
+        "longitude": -3.8243853689051335
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "10:00",
+        "closes": "21:00"
+      }],
+      "sameAs": [
+        "https://www.facebook.com/sonriaOdontologosLoranca/",
+        "https://www.instagram.com/sonriaodontologos_clinica/",
+        "https://maps.app.goo.gl/B2WALgSQgAY3PPwF8",
+        "https://dentistadeconfianza.es/dentistas-en-fuenlabrada/",
+        "https://garantiadeclinica.com/dra-patricia-rengifo/",
+        "https://garantiadeclinica.com/clinicas-dentales-en-madrid/dentistas-en-fuenlabrada/"
+      ] 
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://sonriaodontologos.com/#website",
+      "url":"https://sonriaodontologos.com/",
+      "name":"Dentistas en Fuenlabrada | Clínica Dental Sonría Odontólogos",
+      "description":"Clínica Dental Sonría Odontólogos",
+      "publisher":{
+         "@id":"https://sonriaodontologos.com/#dentist"
+      },
+      "potentialAction":[
+         {
+            "@type":"SearchAction",
+            "target":{
+               "@type":"EntryPoint",
+               "urlTemplate":"https://sonriaodontologos.com/?s={search_term_string}"
+            },
+            "query-input":"required name=search_term_string"
+         }
+      ],
+      "inLanguage":"es"
+   },
+ {
+    "@type":[
+       "MedicalProcedure",
+       "Service"
+    ],
+    "@id":"https://sonriaodontologos.com/tratamientos-dentales/odontologia-general/#service",
+    "name":"Odontología General",
+    "url":"https://sonriaodontologos.com/tratamientos-dentales/odontologia-general/",
+    "mainEntityOfPage":{
+      "@type": "MedicalWebPage",
+      "@id":"https://sonriaodontologos.com/tratamientos-dentales/odontologia-general/#medicalwebpage"
+    },
+    "sameAs":[
+       "https://meshb.nlm.nih.gov/record/ui?ui=D003813",
+       "https://www.wikidata.org/wiki/Q12128",
+       "https://es.wikipedia.org/wiki/Odontolog%C3%ADa",
+       "https://dbpedia.org/page/Dentistry"
+    ],
+    "provider":{
+       "@id":"https://sonriaodontologos.com/#dentist"
+    }
+ }
+]
+}
+</script>

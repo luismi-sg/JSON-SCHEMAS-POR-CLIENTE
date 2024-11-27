@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Periodoncia",
+  "description": "La periodoncia es una especialidad de la odontología que se encarga de prevenir, diagnosticar y tratar las enfermedades de las encías. En la Clínica SM Dental, nuestros dentistas en Tres Cantos ofrecen tratamientos de periodoncia para mantener la salud bucal de nuestros pacientes.",
+  "url": "https://smdental.es/periodoncia/",
+  "id": "https://smdental.es/periodoncia/#procedure",
+  "provider": {
+    "@type": "DentalClinic",
+    "@id": "https://smdental.es/#clinic",
+    "name": "SM Dental",
+    "url": "https://smdental.es/"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": ["Tres Cantos"]
+  },
+  "sameAs": [
+    "https://es.wikipedia.org/wiki/Periodoncia"
+  ]
+}
+</script>
